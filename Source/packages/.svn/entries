@@ -1,0 +1,86 @@
+10
+
+dir
+10
+http://nganhangdethi-newversion.googlecode.com/svn/trunk/NganHangDeThi/packages
+http://nganhangdethi-newversion.googlecode.com/svn
+
+
+
+2014-07-21T17:03:38.571763Z
+5
+hoangtrungcs@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b183c9fb-4c38-f3e1-9546-8aefe860505c
+
+EntityFramework.SqlServerCompact.6.1.0
+dir
+
+EntityFramework.5.0.0
+dir
+
+Microsoft.SqlServer.Compact.4.0.8876.1
+dir
+
+T4Scaffolding.Core.1.0.0
+dir
+
+T4Scaffolding.1.0.8
+dir
+
+DocX.1.0.0.13
+dir
+
+EntityFramework.6.1.0
+dir
+
+CodedUI.CodeFirst.1.0.3
+dir
+
+repositories.config
+file
+
+
+
+
+2016-03-07T21:13:47.398447Z
+c4c3c3d96aa5c0c5878ac4ab69646500
+2014-03-26T01:37:55.152630Z
+2
+hoangtrungcs@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+182
+

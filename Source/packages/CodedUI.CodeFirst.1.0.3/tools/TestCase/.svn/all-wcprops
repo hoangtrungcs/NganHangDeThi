@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/CodedUI.CodeFirst.1.0.3/tools/TestCase
+END
+TestCase.ps1
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/CodedUI.CodeFirst.1.0.3/tools/TestCase/TestCase.ps1
+END
+TestCaseWithParametersTemplate.cs.t4
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/CodedUI.CodeFirst.1.0.3/tools/TestCase/TestCaseWithParametersTemplate.cs.t4
+END
+TestCaseTemplate.cs.t4
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/CodedUI.CodeFirst.1.0.3/tools/TestCase/TestCaseTemplate.cs.t4
+END

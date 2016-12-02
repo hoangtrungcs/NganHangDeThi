@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/Properties/DataSources
+END
+Model.Department.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/Properties/DataSources/Model.Department.datasource
+END
+Model.Student.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/Properties/DataSources/Model.Student.datasource
+END
+Model.Teacher.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/Properties/DataSources/Model.Teacher.datasource
+END
+Controller.Services.StudentsService.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/Properties/DataSources/Controller.Services.StudentsService.datasource
+END
+Model.Subject.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/Properties/DataSources/Model.Subject.datasource
+END

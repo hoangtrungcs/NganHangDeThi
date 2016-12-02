@@ -1,0 +1,647 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/10/trunk/NganHangDeThi/NganHangDeThi
+END
+WordGenerate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/WordGenerate.cs
+END
+About.resx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/About.resx
+END
+SplashScreen.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/SplashScreen.Designer.cs
+END
+SplashScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/SplashScreen.cs
+END
+frmStudent.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmStudent.Designer.cs
+END
+frmMultiTestReport.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmMultiTestReport.Designer.cs
+END
+LoginForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/LoginForm.Designer.cs
+END
+frmLimitedTest.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/NganHangDeThi/NganHangDeThi/frmLimitedTest.Designer.cs
+END
+frmMultipleTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/8/trunk/NganHangDeThi/NganHangDeThi/frmMultipleTest.cs
+END
+frmAccount.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmAccount.cs
+END
+frmBackupData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmBackupData.cs
+END
+frmCustomQuestion.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/NganHangDeThi/NganHangDeThi/frmCustomQuestion.Designer.cs
+END
+NganHangDeThi.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/7/trunk/NganHangDeThi/NganHangDeThi/NganHangDeThi.csproj.user
+END
+frmStudentTest.resx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmStudentTest.resx
+END
+frmSchoolInfo.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSchoolInfo.Designer.cs
+END
+MainForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/NganHangDeThi/NganHangDeThi/MainForm.Designer.cs
+END
+SimpleBaseForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8/trunk/NganHangDeThi/NganHangDeThi/SimpleBaseForm.cs
+END
+Constants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/Constants.cs
+END
+IForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/IForm.cs
+END
+frmSubjectsClass.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSubjectsClass.Designer.cs
+END
+packages.config
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/NganHangDeThi/NganHangDeThi/packages.config
+END
+frmRestoreData.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmRestoreData.Designer.cs
+END
+frmRestoreData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmRestoreData.cs
+END
+frmUser.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmUser.Designer.cs
+END
+LoginLocalForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/LoginLocalForm.resx
+END
+frmMixedTest.resx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmMixedTest.resx
+END
+frmSharingQuestion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSharingQuestion.cs
+END
+frmSubjectsClass.resx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSubjectsClass.resx
+END
+CustomReportForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/CustomReportForm.Designer.cs
+END
+CustomReportForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/CustomReportForm.cs
+END
+frmStudentTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmStudentTest.cs
+END
+BaseForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/BaseForm.cs
+END
+frmResultTest.resx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmResultTest.resx
+END
+frmUserRole.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmUserRole.Designer.cs
+END
+frmSubject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSubject.cs
+END
+SplashScreen.resx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/SplashScreen.resx
+END
+LoginLocalForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/LoginLocalForm.cs
+END
+frmDepartment.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmDepartment.cs
+END
+MasterDetailBaseForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/MasterDetailBaseForm.resx
+END
+frmClass.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/NganHangDeThi/NganHangDeThi/frmClass.Designer.cs
+END
+frmClass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/NganHangDeThi/NganHangDeThi/frmClass.cs
+END
+frmMixedTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/NganHangDeThi/NganHangDeThi/frmMixedTest.cs
+END
+frmQuestion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/10/trunk/NganHangDeThi/NganHangDeThi/frmQuestion.cs
+END
+frmMultipleTest.resx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmMultipleTest.resx
+END
+frmSubjectsClass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSubjectsClass.cs
+END
+frmBackupData.resx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmBackupData.resx
+END
+frmTestReport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/NganHangDeThi/NganHangDeThi/frmTestReport.cs
+END
+frmUserRole.resx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmUserRole.resx
+END
+frmTestDetail.resx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmTestDetail.resx
+END
+frmResultTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmResultTest.cs
+END
+frmTheme.resx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmTheme.resx
+END
+frmTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8/trunk/NganHangDeThi/NganHangDeThi/frmTest.cs
+END
+SimpleBaseForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/SimpleBaseForm.resx
+END
+NganHang.sdf
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/NganHang.sdf
+END
+NganHangDeThi.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/NganHangDeThi/NganHangDeThi/NganHangDeThi.csproj
+END
+frmStudentTest.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmStudentTest.Designer.cs
+END
+LoginForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/NganHangDeThi/NganHangDeThi/LoginForm.cs
+END
+frmLimitedTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/NganHangDeThi/NganHangDeThi/frmLimitedTest.cs
+END
+MasterDetailBaseForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/MasterDetailBaseForm.cs
+END
+frmRestoreData.resx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmRestoreData.resx
+END
+frmMultipleTest.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/8/trunk/NganHangDeThi/NganHangDeThi/frmMultipleTest.Designer.cs
+END
+frmBackupData.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmBackupData.Designer.cs
+END
+frmSharingQuestion.resx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSharingQuestion.resx
+END
+frmUserRole.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmUserRole.cs
+END
+LoginLocalForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/LoginLocalForm.Designer.cs
+END
+CustomReportForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/CustomReportForm.resx
+END
+frmTestDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmTestDetail.cs
+END
+frmMultiTestReport.resx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmMultiTestReport.resx
+END
+frmStudent.resx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmStudent.resx
+END
+frmTheme.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmTheme.cs
+END
+frmSchoolInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSchoolInfo.cs
+END
+MainForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/NganHangDeThi/NganHangDeThi/MainForm.cs
+END
+About.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/About.Designer.cs
+END
+frmMixedTest.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7/trunk/NganHangDeThi/NganHangDeThi/frmMixedTest.Designer.cs
+END
+About.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/About.cs
+END
+BaseForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/BaseForm.resx
+END
+App.config
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/NganHangDeThi/NganHangDeThi/App.config
+END
+frmSubject.resx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSubject.resx
+END
+frmResultTest.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmResultTest.Designer.cs
+END
+frmCustomQuestion.resx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmCustomQuestion.resx
+END
+frmDepartment.resx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmDepartment.resx
+END
+frmClass.resx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/NganHangDeThi/NganHangDeThi/frmClass.resx
+END
+frmSharingQuestion.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/NganHangDeThi/NganHangDeThi/frmSharingQuestion.Designer.cs
+END
+frmQuestion.resx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmQuestion.resx
+END
+Splash.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/Splash.cs
+END
+frmStudent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmStudent.cs
+END
+frmMultiTestReport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8/trunk/NganHangDeThi/NganHangDeThi/frmMultiTestReport.cs
+END
+frmTestReport.resx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmTestReport.resx
+END
+frmUser.resx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmUser.resx
+END
+frmTest.resx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmTest.resx
+END
+frmAccount.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmAccount.Designer.cs
+END
+NHDT.ico
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/NHDT.ico
+END
+frmSubject.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSubject.Designer.cs
+END
+frmTheme.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmTheme.Designer.cs
+END
+frmTestDetail.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmTestDetail.Designer.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/NganHangDeThi/NganHangDeThi/Program.cs
+END
+frmCustomQuestion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/NganHangDeThi/NganHangDeThi/frmCustomQuestion.cs
+END
+frmDepartment.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmDepartment.Designer.cs
+END
+LoginForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/LoginForm.resx
+END
+frmLimitedTest.resx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmLimitedTest.resx
+END
+frmQuestion.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/10/trunk/NganHangDeThi/NganHangDeThi/frmQuestion.Designer.cs
+END
+frmAccount.resx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmAccount.resx
+END
+frmTestReport.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmTestReport.Designer.cs
+END
+frmTest.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/8/trunk/NganHangDeThi/NganHangDeThi/frmTest.Designer.cs
+END
+frmUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmUser.cs
+END
+MainForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/MainForm.resx
+END
+frmSchoolInfo.resx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/NganHangDeThi/NganHangDeThi/frmSchoolInfo.resx
+END

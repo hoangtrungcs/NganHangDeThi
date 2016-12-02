@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8b6a7950aad94d36a260f6e21831a688" Name="Diagram1" ShowGrid="false">
+        <EntityTypeShape EntityType="LocalNganHangModel.Answer" Width="1.5" PointX="5.25" PointY="3.75" />
+        <EntityTypeShape EntityType="LocalNganHangModel.Department" Width="1.5" PointX="1.5" PointY="27.375" />
+        <EntityTypeShape EntityType="LocalNganHangModel.LopHoc" Width="1.5" PointX="0.75" PointY="12.875" />
+        <EntityTypeShape EntityType="LocalNganHangModel.MultiTestCopy" Width="1.5" PointX="5.25" PointY="9.875" />
+        <EntityTypeShape EntityType="LocalNganHangModel.MultiTestQuestion" Width="1.5" PointX="5.25" PointY="6.75" />
+        <EntityTypeShape EntityType="LocalNganHangModel.MultiTest" Width="1.5" PointX="3" PointY="8.375" />
+        <EntityTypeShape EntityType="LocalNganHangModel.Operation" Width="1.5" PointX="7.75" PointY="3.5" />
+        <EntityTypeShape EntityType="LocalNganHangModel.Question" Width="1.5" PointX="3" PointY="2.375" />
+        <EntityTypeShape EntityType="LocalNganHangModel.SchoolInfo" Width="1.5" PointX="9.75" PointY="2.5" />
+        <EntityTypeShape EntityType="LocalNganHangModel.Student" Width="1.5" PointX="3" PointY="20.25" />
+        <EntityTypeShape EntityType="LocalNganHangModel.StudentTestDetail" Width="1.5" PointX="5.25" PointY="15.375" />
+        <EntityTypeShape EntityType="LocalNganHangModel.StudentTest" Width="1.5" PointX="8.25" PointY="15" />
+        <EntityTypeShape EntityType="LocalNganHangModel.Subject" Width="1.5" PointX="0.75" PointY="3.375" />
+        <EntityTypeShape EntityType="LocalNganHangModel.SubjectsClass" Width="1.5" PointX="11.25" PointY="11.875" />
+        <EntityTypeShape EntityType="LocalNganHangModel.SubjectsMultiTest" Width="1.5" PointX="8.25" PointY="9.25" />
+        <EntityTypeShape EntityType="LocalNganHangModel.TeacherOperation" Width="1.5" PointX="7.75" PointY="6.5" />
+        <EntityTypeShape EntityType="LocalNganHangModel.Teacher" Width="1.5" PointX="3.75" PointY="26.25" />
+        <EntityTypeShape EntityType="LocalNganHangModel.TestCopy" Width="1.5" PointX="5.25" PointY="22.625" />
+        <EntityTypeShape EntityType="LocalNganHangModel.TestQuestion" Width="1.5" PointX="5.25" PointY="12.5" />
+        <EntityTypeShape EntityType="LocalNganHangModel.Test" Width="1.5" PointX="3" PointY="13.875" />
+        <EntityTypeShape EntityType="LocalNganHangModel.UserSubjectRight" Width="1.5" PointX="6" PointY="0.75" />
+        <AssociationConnector Association="LocalNganHangModel.FK_Answers_Questions" />
+        <AssociationConnector Association="LocalNganHangModel.FK_SubjectsClass_Departments" />
+        <AssociationConnector Association="LocalNganHangModel.FK_Teachers_Departments" />
+        <AssociationConnector Association="LocalNganHangModel.LopHocForMultiTest" />
+        <AssociationConnector Association="LocalNganHangModel.LopHocForTest" />
+        <AssociationConnector Association="LocalNganHangModel.FK_MultiTestCopies_MultiTests" />
+        <AssociationConnector Association="LocalNganHangModel.FK_MultiTestQuestions_MultiTests" />
+        <AssociationConnector Association="LocalNganHangModel.FK_MultiTestQuestions_Questions" />
+        <AssociationConnector Association="LocalNganHangModel.FK_SubjectsMultiTests_MultiTests" />
+        <AssociationConnector Association="LocalNganHangModel.FK_Questions_Subjects" />
+        <AssociationConnector Association="LocalNganHangModel.FK_StudentTestDetails_Questions" />
+        <AssociationConnector Association="LocalNganHangModel.FK_TestQuestions_Questions" />
+        <AssociationConnector Association="LocalNganHangModel.FK_StudentTestDetails_Students" />
+        <AssociationConnector Association="LocalNganHangModel.FK_StudentTests_Students" />
+        <AssociationConnector Association="LocalNganHangModel.FK_StudentTestDetails_Tests" />
+        <AssociationConnector Association="LocalNganHangModel.FK_StudentTests_Tests" />
+        <AssociationConnector Association="LocalNganHangModel.FK_SubjectsClass_Subjects" />
+        <AssociationConnector Association="LocalNganHangModel.FK_SubjectsMultiTests_Subjects" />
+        <AssociationConnector Association="LocalNganHangModel.FK_UserSubjectRights_Subjects" />
+        <AssociationConnector Association="LocalNganHangModel.FK_SubjectsClass_MainTeachers" />
+        <AssociationConnector Association="LocalNganHangModel.FK_SubjectsClass_SubjectTeachers" />
+        <AssociationConnector Association="LocalNganHangModel.FK_UserSubjectRights_Teachers" />
+        <AssociationConnector Association="LocalNganHangModel.FK_TestCopies_Tests" />
+        <AssociationConnector Association="LocalNganHangModel.FK_TestQuestions_Tests" />
+        <AssociationConnector Association="LocalNganHangModel.SubjectsClassStudents" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

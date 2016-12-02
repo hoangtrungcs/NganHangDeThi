@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools
+END
+T4Scaffolding.dll
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/T4Scaffolding.dll
+END
+T4Scaffolding.Format.ps1xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/T4Scaffolding.Format.ps1xml
+END
+init.ps1
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/init.ps1
+END
+T4Scaffolding.NuGetServices.dll
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/T4Scaffolding.NuGetServices.dll
+END
+install.ps1
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/install.ps1
+END
+scaffoldingTabExpansion.psm1
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/scaffoldingTabExpansion.psm1
+END
+uninstall.ps1
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/uninstall.ps1
+END

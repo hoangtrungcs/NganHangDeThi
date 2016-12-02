@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5114DD3A-462B-4FE2-8E96-A86FBF615461}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseEntity.cs" />
+    <Compile Include="ExtraField\MultiTest.cs" />
+    <Compile Include="ExtraField\Test.cs" />
+    <Compile Include="POCO\Answer.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\Department.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\LopHoc.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\MultiTest.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\MultiTestCopy.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\MultiTestQuestion.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\Operation.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\Question.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\QuestionBank.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuestionBank.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\QuestionBank.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\SchoolInfo.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\Student.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\StudentTest.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\StudentTestDetail.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\Subject.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\SubjectsClass.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\SubjectsMultiTest.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\Teacher.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\TeacherOperation.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\Test.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\TestCopy.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\TestQuestion.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\UserSubjectRight.cs">
+      <DependentUpon>QuestionBank.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionMixedModel.cs" />
+    <Compile Include="Exceptions\NotAuthorizedUser.cs" />
+    <Compile Include="ExtraField\Question.cs" />
+    <Compile Include="ExtraField\Student.cs" />
+    <Compile Include="ExtraField\StudentTest.cs" />
+    <Compile Include="ExtraField\Subject.cs" />
+    <Compile Include="ExtraField\Teacher.cs" />
+    <Compile Include="ExtraModel\ClassifyNumberQuestion.cs" />
+    <Compile Include="LocalQuestionBank.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocalQuestionBank.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionModel.cs" />
+    <Compile Include="UserModel.cs" />
+    <Compile Include="UserSubjectRightModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="LocalQuestionBank.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LocalQuestionBank.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="LocalQuestionBank.edmx.diagram">
+      <DependentUpon>LocalQuestionBank.edmx</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LocalQuestionBank.edmx.sqlce" />
+    <None Include="packages.config" />
+    <EntityDeploy Include="QuestionBank.edmx" />
+    <None Include="POCO\QuestionBank.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>QuestionBank.Context.cs</LastGenOutput>
+    </None>
+    <None Include="POCO\QuestionBank.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>QuestionBank.cs</LastGenOutput>
+    </None>
+    <None Include="QuestionBank.edmx.diagram">
+      <DependentUpon>QuestionBank.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{2fb614d5-ebe2-4d3e-bd5a-f4ae9bcdbecc}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

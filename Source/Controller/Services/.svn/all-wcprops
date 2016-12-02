@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/8/trunk/NganHangDeThi/Controller/Services
+END
+SubjectsService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/NganHangDeThi/Controller/Services/SubjectsService.cs
+END
+TestsService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8/trunk/NganHangDeThi/Controller/Services/TestsService.cs
+END
+SchoolInfoService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/NganHangDeThi/Controller/Services/SchoolInfoService.cs
+END
+DepartmentService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/7/trunk/NganHangDeThi/Controller/Services/DepartmentService.cs
+END
+MultiTestCopyService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/NganHangDeThi/Controller/Services/MultiTestCopyService.cs
+END
+ClassService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7/trunk/NganHangDeThi/Controller/Services/ClassService.cs
+END
+StudentTestService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/NganHangDeThi/Controller/Services/StudentTestService.cs
+END
+SubjectsClassService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/NganHangDeThi/Controller/Services/SubjectsClassService.cs
+END
+QuestionModelService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7/trunk/NganHangDeThi/Controller/Services/QuestionModelService.cs
+END
+StudentsService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/NganHangDeThi/Controller/Services/StudentsService.cs
+END
+QuestionsService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/8/trunk/NganHangDeThi/Controller/Services/QuestionsService.cs
+END
+BaseService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/NganHangDeThi/Controller/Services/BaseService.cs
+END
+MultiTestService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/8/trunk/NganHangDeThi/Controller/Services/MultiTestService.cs
+END
+UserService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/NganHangDeThi/Controller/Services/UserService.cs
+END

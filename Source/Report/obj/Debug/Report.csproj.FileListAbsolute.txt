@@ -1,0 +1,6 @@
+D:\Projects\ngan-hang-de-thi\NganHangDeThi\Report\bin\Debug\Report.dll
+D:\Projects\ngan-hang-de-thi\NganHangDeThi\Report\bin\Debug\Report.pdb
+D:\Projects\ngan-hang-de-thi\NganHangDeThi\Report\obj\Debug\Report.rpMultiTest.resources
+D:\Projects\ngan-hang-de-thi\NganHangDeThi\Report\obj\Debug\Report.csproj.GenerateResource.Cache
+D:\Projects\ngan-hang-de-thi\NganHangDeThi\Report\obj\Debug\Report.dll
+D:\Projects\ngan-hang-de-thi\NganHangDeThi\Report\obj\Debug\Report.pdb

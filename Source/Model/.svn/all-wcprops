@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/7/trunk/NganHangDeThi/Model
+END
+LocalQuestionBank.edmx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/NganHangDeThi/Model/LocalQuestionBank.edmx
+END
+BaseEntity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/BaseEntity.cs
+END
+Model.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/Model.csproj.user
+END
+LocalQuestionBank.edmx.diagram
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/LocalQuestionBank.edmx.diagram
+END
+LocalQuestionBank.edmx.sqlce
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/LocalQuestionBank.edmx.sqlce
+END
+UserSubjectRightModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/UserSubjectRightModel.cs
+END
+LocalQuestionBank.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/NganHangDeThi/Model/LocalQuestionBank.Designer.cs
+END
+packages.config
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/packages.config
+END
+QuestionMixedModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/QuestionMixedModel.cs
+END
+App.Config
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/7/trunk/NganHangDeThi/Model/App.Config
+END
+QuestionModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/QuestionModel.cs
+END
+QuestionBank.edmx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/QuestionBank.edmx
+END
+Model.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/trunk/NganHangDeThi/Model/Model.csproj
+END
+QuestionBank.edmx.diagram
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/QuestionBank.edmx.diagram
+END
+UserModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/UserModel.cs
+END
+QuestionBank.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/QuestionBank.Designer.cs
+END

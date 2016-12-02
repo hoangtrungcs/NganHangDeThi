@@ -1,0 +1,18 @@
+Executing: -- --------------------------------------------------
+-- Creating all tables
+-- --------------------------------------------------
+
+-- Creating table 'Answers'
+CREATE TABLE [Answers] (
+    [AnswerId] bigint IDENTITY(1,1) NOT NULL,
+    [Content] ntext  NOT NULL,
+    [FK_QuestionId] bigint  NOT NULL,
+    [IsAnswer] bit  NOT NULL
+);
+
+
+ Error Code: 80040E3F
+ Message   : The specified table already exists. [ Answers ]
+ Minor Err.: 0
+ Source    : SQL Server Compact ADO.NET Data Provider
+ Err. Par. : Answers

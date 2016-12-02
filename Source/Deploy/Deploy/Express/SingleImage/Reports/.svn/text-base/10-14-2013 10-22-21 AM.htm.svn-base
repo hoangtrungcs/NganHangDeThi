@@ -1,0 +1,1679 @@
+<HTML><HEAD><TITLE>Build Report</TITLE></HEAD><BODY>
+
+<B><FONT FACE="Arial" SIZE=4><P ALIGN="center">
+Build Report</P></B></FONT>
+
+<B><I><FONT FACE="Arial" ><P>
+Summary</P></I></B></FONT>
+
+<TABLE CELLSPACING=0 STYLE="margin-left:20" BORDER=0 CELLPADDING=4 WIDTH=600>
+
+<TR>
+
+<TD WIDTH="45%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Number of features:
+</FONT></P></TD>
+
+<TD WIDTH="55%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="45%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Number of merge modules:
+</FONT></P></TD>
+
+<TD WIDTH="55%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+0
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="45%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Number of dynamic links:
+</FONT></P></TD>
+
+<TD WIDTH="55%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+0
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="45%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Media:
+</FONT></P></TD>
+
+<TD WIDTH="55%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+SingleImage
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="45%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Number of files:
+</FONT></P></TD>
+
+<TD WIDTH="55%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+44
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="45%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Uncompressed files total size:
+</FONT></P></TD>
+
+<TD WIDTH="55%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+0.00 MB
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="45%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Compressed files total size:
+</FONT></P></TD>
+
+<TD WIDTH="55%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+0.00 MB
+</FONT></P></TD>
+
+</TR>
+
+</TABLE>
+
+<B><I><FONT FACE="Arial" ><P>
+Features</P></I></B></FONT>
+
+<TABLE CELLSPACING=0 STYLE="margin-left:20" BORDER=0 CELLPADDING=4 WIDTH=600>
+
+<TR>
+
+<TD WIDTH="100%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+AlwaysInstall
+</FONT></P></TD>
+
+</TR>
+
+</TABLE>
+
+<B><I><FONT FACE="Arial" ><P>
+Merge  Modules</P></I></B></FONT>
+
+<TABLE CELLSPACING=0 STYLE="margin-left:20" BORDER=0 CELLPADDING=4 WIDTH=600>
+
+</TABLE>
+
+<B><I><FONT FACE="Arial" ><P>
+Dynamic links</P></I></B></FONT>
+
+<TABLE CELLSPACING=0 STYLE="margin-left:20" BORDER=0 CELLPADDING=4 WIDTH=600>
+
+</TABLE>
+
+<B><I><FONT FACE="Arial" ><P>
+Files</P></I></B></FONT>
+
+<TABLE CELLSPACING=0 STYLE="margin-left:20" BORDER=0 CELLPADDING=4 WIDTH=600>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><B><I><FONT FACE="Arial"SIZE=2><P>
+
+File
+</I></B></FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><B><I><FONT FACE="Arial"SIZE=2><P>
+
+Destination
+</I></B></FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><B><I><FONT FACE="Arial"SIZE=2><P>
+
+Feature
+</I></B></FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><B><I><FONT FACE="Arial"SIZE=2><P>
+
+Last Modified
+</I></B></FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><B><I><FONT FACE="Arial"SIZE=2><P>
+
+Size (bytes)
+</I></B></FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><B><I><FONT FACE="Arial"SIZE=2><P>
+
+Version
+</I></B></FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Common.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10/14/2013 10:17:11 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+17920
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1.0.0.0
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Controller.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10/14/2013 10:17:11 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+94208
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1.0.0.0
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Microsoft.CSharp.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+7/12/2012 9:01:58 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+482752
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+4.0.30319.17929
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+System.Dynamic.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+7/12/2012 9:02:05 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+124856
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+4.0.30319.17929
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+EntityFramework.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+9/21/2013 12:48:15 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1116760
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+5.0.20627.0
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+NganHang.sdf
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10/14/2013 10:18:41 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+937984
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+NganHangDeThi.exe.config
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10/14/2013 12:21:25 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1817
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+report.crdb
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10/14/2013 10:17:12 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+4151661
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1111.PNG
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi\Images
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+9/21/2013 11:16:21 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+186552
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Tabs.xml
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi\Structure
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10/7/2013 4:47:57 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1820
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+LicenseKey.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10/14/2013 10:17:11 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+29696
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1.0.0.0
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Microsoft.SqlServer.ConnectionInfo.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi\DLLs
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+9/25/2013 8:07:58 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+171096
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+11.0.2100.60
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Microsoft.SqlServer.Management.Sdk.Sfc.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi\DLLs
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+9/25/2013 8:07:58 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+506968
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+11.0.2100.60
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Microsoft.SqlServer.Smo.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi\DLLs
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+9/25/2013 8:07:58 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3615832
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+11.0.2100.60
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Microsoft.SqlServer.SmoExtended.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi\DLLs
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+9/25/2013 8:07:58 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+232536
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+11.0.2100.60
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Microsoft.SqlServer.SqlEnum.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi\DLLs
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+9/25/2013 8:07:58 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1317976
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+11.0.2100.60
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Model.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10/14/2013 10:17:11 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+94208
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1.0.0.0
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+NganHangDeThi.exe
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10/14/2013 10:17:11 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2017792
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.2.606.0
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+System.ComponentModel.Composition.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+7/23/2013 5:09:09 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+278176
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+4.0.30319.18058
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+NganHangReport.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10/14/2013 10:17:11 AM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+52736
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1.0.0.0
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.ReportViewer.WinForms.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+6/11/2012 3:23:08 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+180224
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+6.1.12.611
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.Reporting.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+6/11/2012 3:22:52 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3055616
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+6.1.12.611
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.GridView.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:04 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1096704
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.RadChart.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:12 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+751104
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.RadDock.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:02 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1058816
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.RichTextBox.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:20 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+10975744
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.Aqua.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:16 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1365504
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.Breeze.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:02:58 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+594432
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.Desert.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:02:58 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+779264
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.HighContrastBlack.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:02:58 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+138240
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.Office2007Black.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:02:58 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+704512
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.Office2007Silver.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:00 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+742912
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.Office2010Black.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:00 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+867840
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.Office2010Blue.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:00 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+919040
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.Office2010Silver.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:00 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1000448
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.TelerikMetro.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:00 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+744448
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.TelerikMetroBlue.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:00 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+697856
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Themes.Windows7.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:00 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+597504
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.UI.Design.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:14 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1060352
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.Scheduler.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+6/18/2013 10:42:23 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+887808
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.UI.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:02:56 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+8619520
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Telerik.WinControls.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:02:52 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+1469952
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+TelerikCommon.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:02:48 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+587776
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+<TR>
+
+<TD WIDTH="30%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+TelerikData.dll
+</FONT></P></TD>
+
+<TD WIDTH="20%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+[ProgramFilesFolder]TnTGroup\NganHangDeThi
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+Always Install
+</FONT></P></TD>
+
+<TD WIDTH="15%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+3/21/2012 12:03:16 PM
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+713216
+</FONT></P></TD>
+
+<TD WIDTH="10%"VALIGN="center"><FONT FACE="Times New Roman"SIZE=2><P>
+
+2012.1.321.40
+</FONT></P></TD>
+
+</TR>
+
+</TABLE>
+
+</BODY></HTML>
+

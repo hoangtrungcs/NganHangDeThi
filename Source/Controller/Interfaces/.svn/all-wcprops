@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/NganHangDeThi/Controller/Interfaces
+END
+IRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/NganHangDeThi/Controller/Interfaces/IRepository.cs
+END
+IService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/NganHangDeThi/Controller/Interfaces/IService.cs
+END

@@ -1,0 +1,1663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Alias="Self" Namespace="NganHangModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008">
+        <EntityContainer Name="NganHangModelStoreContainer">
+          <EntitySet Name="Answers" EntityType="NganHangModel.Store.Answers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Departments" EntityType="NganHangModel.Store.Departments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MultiTestCopies" EntityType="NganHangModel.Store.MultiTestCopies" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MultiTestQuestions" EntityType="NganHangModel.Store.MultiTestQuestions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MultiTests" EntityType="NganHangModel.Store.MultiTests" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Operations" EntityType="NganHangModel.Store.Operations" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Questions" EntityType="NganHangModel.Store.Questions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SchoolInfos" EntityType="NganHangModel.Store.SchoolInfos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Students" EntityType="NganHangModel.Store.Students" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="StudentTestDetails" EntityType="NganHangModel.Store.StudentTestDetails" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="StudentTests" EntityType="NganHangModel.Store.StudentTests" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subjects" EntityType="NganHangModel.Store.Subjects" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SubjectsClass" EntityType="NganHangModel.Store.SubjectsClass" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SubjectsClassStudents" EntityType="NganHangModel.Store.SubjectsClassStudents" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SubjectsMultiTests" EntityType="NganHangModel.Store.SubjectsMultiTests" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TeacherOperations" EntityType="NganHangModel.Store.TeacherOperations" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Teachers" EntityType="NganHangModel.Store.Teachers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TestCopies" EntityType="NganHangModel.Store.TestCopies" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TestQuestions" EntityType="NganHangModel.Store.TestQuestions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tests" EntityType="NganHangModel.Store.Tests" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserSubjectRights" EntityType="NganHangModel.Store.UserSubjectRights" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Answers_Questions" Association="NganHangModel.Store.FK_Answers_Questions">
+            <End EntitySet="Questions" Role="Questions" />
+            <End EntitySet="Answers" Role="Answers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MultiTestCopies_MultiTests" Association="NganHangModel.Store.FK_MultiTestCopies_MultiTests">
+            <End EntitySet="MultiTests" Role="MultiTests" />
+            <End EntitySet="MultiTestCopies" Role="MultiTestCopies" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MultiTestQuestions_MultiTests" Association="NganHangModel.Store.FK_MultiTestQuestions_MultiTests">
+            <End EntitySet="MultiTests" Role="MultiTests" />
+            <End EntitySet="MultiTestQuestions" Role="MultiTestQuestions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MultiTestQuestions_Questions" Association="NganHangModel.Store.FK_MultiTestQuestions_Questions">
+            <End EntitySet="Questions" Role="Questions" />
+            <End EntitySet="MultiTestQuestions" Role="MultiTestQuestions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Questions_Subjects" Association="NganHangModel.Store.FK_Questions_Subjects">
+            <End EntitySet="Subjects" Role="Subjects" />
+            <End EntitySet="Questions" Role="Questions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentTestDetails_Questions" Association="NganHangModel.Store.FK_StudentTestDetails_Questions">
+            <End EntitySet="Questions" Role="Questions" />
+            <End EntitySet="StudentTestDetails" Role="StudentTestDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentTestDetails_Students" Association="NganHangModel.Store.FK_StudentTestDetails_Students">
+            <End EntitySet="Students" Role="Students" />
+            <End EntitySet="StudentTestDetails" Role="StudentTestDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentTestDetails_Tests" Association="NganHangModel.Store.FK_StudentTestDetails_Tests">
+            <End EntitySet="Tests" Role="Tests" />
+            <End EntitySet="StudentTestDetails" Role="StudentTestDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentTests_Students" Association="NganHangModel.Store.FK_StudentTests_Students">
+            <End EntitySet="Students" Role="Students" />
+            <End EntitySet="StudentTests" Role="StudentTests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentTests_Tests" Association="NganHangModel.Store.FK_StudentTests_Tests">
+            <End EntitySet="Tests" Role="Tests" />
+            <End EntitySet="StudentTests" Role="StudentTests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsClass_Departments" Association="NganHangModel.Store.FK_SubjectsClass_Departments">
+            <End EntitySet="Departments" Role="Departments" />
+            <End EntitySet="SubjectsClass" Role="SubjectsClass" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsClass_MainTeachers" Association="NganHangModel.Store.FK_SubjectsClass_MainTeachers">
+            <End EntitySet="Teachers" Role="Teachers" />
+            <End EntitySet="SubjectsClass" Role="SubjectsClass" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsClass_Subjects" Association="NganHangModel.Store.FK_SubjectsClass_Subjects">
+            <End EntitySet="Subjects" Role="Subjects" />
+            <End EntitySet="SubjectsClass" Role="SubjectsClass" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsClass_SubjectTeachers" Association="NganHangModel.Store.FK_SubjectsClass_SubjectTeachers">
+            <End EntitySet="Teachers" Role="Teachers" />
+            <End EntitySet="SubjectsClass" Role="SubjectsClass" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsClassStudents_Students" Association="NganHangModel.Store.FK_SubjectsClassStudents_Students">
+            <End EntitySet="Students" Role="Students" />
+            <End EntitySet="SubjectsClassStudents" Role="SubjectsClassStudents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsClassStudents_Subjects" Association="NganHangModel.Store.FK_SubjectsClassStudents_Subjects">
+            <End EntitySet="SubjectsClass" Role="SubjectsClass" />
+            <End EntitySet="SubjectsClassStudents" Role="SubjectsClassStudents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsMultiTests_MultiTests" Association="NganHangModel.Store.FK_SubjectsMultiTests_MultiTests">
+            <End EntitySet="MultiTests" Role="MultiTests" />
+            <End EntitySet="SubjectsMultiTests" Role="SubjectsMultiTests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsMultiTests_Subjects" Association="NganHangModel.Store.FK_SubjectsMultiTests_Subjects">
+            <End EntitySet="Subjects" Role="Subjects" />
+            <End EntitySet="SubjectsMultiTests" Role="SubjectsMultiTests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teachers_Departments" Association="NganHangModel.Store.FK_Teachers_Departments">
+            <End EntitySet="Departments" Role="Departments" />
+            <End EntitySet="Teachers" Role="Teachers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TestCopies_Tests" Association="NganHangModel.Store.FK_TestCopies_Tests">
+            <End EntitySet="Tests" Role="Tests" />
+            <End EntitySet="TestCopies" Role="TestCopies" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TestQuestions_Questions" Association="NganHangModel.Store.FK_TestQuestions_Questions">
+            <End EntitySet="Questions" Role="Questions" />
+            <End EntitySet="TestQuestions" Role="TestQuestions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TestQuestions_Tests" Association="NganHangModel.Store.FK_TestQuestions_Tests">
+            <End EntitySet="Tests" Role="Tests" />
+            <End EntitySet="TestQuestions" Role="TestQuestions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserSubjectRights_Subjects" Association="NganHangModel.Store.FK_UserSubjectRights_Subjects">
+            <End EntitySet="Subjects" Role="Subjects" />
+            <End EntitySet="UserSubjectRights" Role="UserSubjectRights" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserSubjectRights_Teachers" Association="NganHangModel.Store.FK_UserSubjectRights_Teachers">
+            <End EntitySet="Teachers" Role="Teachers" />
+            <End EntitySet="UserSubjectRights" Role="UserSubjectRights" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Answers">
+          <Key>
+            <PropertyRef Name="AnswerId" />
+          </Key>
+          <Property Name="AnswerId" Nullable="false" StoreGeneratedPattern="Identity" Type="bigint" />
+          <Property Name="Content" Nullable="false" Type="nvarchar(max)" />
+          <Property Name="FK_QuestionId" Nullable="false" Type="bigint" />
+          <Property Name="IsAnswer" Nullable="false" Type="bit" />
+        </EntityType>
+        <EntityType Name="Departments">
+          <Key>
+            <PropertyRef Name="DepartmentId" />
+          </Key>
+          <Property Name="DepartmentId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+          <Property Name="DepartmentName" Nullable="false" MaxLength="150" Type="nvarchar" />
+          <Property Name="DepartmentNo" MaxLength="10" Type="nchar" />
+        </EntityType>
+        <EntityType Name="MultiTestCopies">
+          <Key>
+            <PropertyRef Name="MultiTestCopyId" />
+          </Key>
+          <Property Name="MultiTestCopyId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+          <Property Name="FK_MultiTestId" Nullable="false" Type="bigint" />
+          <Property Name="MultiTestCopyStructure" Nullable="false" Type="xml" />
+        </EntityType>
+        <EntityType Name="MultiTestQuestions">
+          <Key>
+            <PropertyRef Name="FK_MultiTestId" />
+            <PropertyRef Name="FK_QuestionId" />
+          </Key>
+          <Property Name="FK_MultiTestId" Nullable="false" Type="bigint" />
+          <Property Name="FK_QuestionId" Nullable="false" Type="bigint" />
+          <Property Name="Mark" Type="float" />
+        </EntityType>
+        <EntityType Name="MultiTests">
+          <Key>
+            <PropertyRef Name="MultiTestId" />
+          </Key>
+          <Property Name="MultiTestId" Nullable="false" StoreGeneratedPattern="Identity" Type="bigint" />
+          <Property Name="MultiTestNo" Nullable="false" MaxLength="20" Type="nchar" />
+          <Property Name="MultiTestName" Nullable="false" MaxLength="250" Type="nvarchar" />
+          <Property Name="MultiTestDate" Nullable="false" Type="datetime" />
+          <Property Name="Time" Nullable="false" Type="int" />
+          <Property Name="CreatedBy" Nullable="false" MaxLength="20" Type="varchar" />
+          <Property Name="UpdatedBy" Nullable="false" MaxLength="20" Type="varchar" />
+          <Property Name="CreatedDate" Nullable="false" Type="datetime" />
+          <Property Name="UpdatedDate" Nullable="false" Type="datetime" />
+          <Property Name="Purpose" Nullable="false" Type="int" />
+          <Property Name="CopyTestNo" Nullable="false" Type="int" />
+          <Property Name="TotalQuestions" Nullable="false" Type="int" />
+          <Property Name="IsMixedTest" Nullable="false" Type="bit" />
+          <Property Name="IsDeleted" Nullable="false" Type="bit" />
+        </EntityType>
+        <EntityType Name="Operations">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+          <Property Name="OperationName" Nullable="false" MaxLength="100" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="Questions">
+          <Key>
+            <PropertyRef Name="QuestionId" />
+          </Key>
+          <Property Name="QuestionId" Nullable="false" StoreGeneratedPattern="Identity" Type="bigint" />
+          <Property Name="Content" MaxLength="500" Type="nvarchar" />
+          <Property Name="Level" Nullable="false" Type="int" />
+          <Property Name="FK_SubjectId" Nullable="false" Type="int" />
+          <Property Name="Type" Nullable="false" Type="int" />
+          <Property Name="CreatedBy" MaxLength="20" Type="varchar" />
+          <Property Name="UpdatedBy" MaxLength="20" Type="varchar" />
+          <Property Name="CreatedDate" Nullable="false" Type="datetime" />
+          <Property Name="UpdatedDate" Nullable="false" Type="datetime" />
+          <Property Name="Time" Nullable="false" Type="float" />
+          <Property Name="Purpose" Nullable="false" Type="int" />
+          <Property Name="IsDelete" Nullable="false" Type="bit" />
+          <Property Name="QuestionGuid" Nullable="false" Type="uniqueidentifier" />
+          <Property Name="IsAnswerRandom" Type="bit" />
+        </EntityType>
+        <EntityType Name="SchoolInfos">
+          <Key>
+            <PropertyRef Name="SchoolInfoId" />
+          </Key>
+          <Property Name="SchoolInfoId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+          <Property Name="SchoolName" Nullable="false" MaxLength="250" Type="nvarchar" />
+          <Property Name="HomePhone" MaxLength="11" Type="varchar" />
+          <Property Name="Phone" MaxLength="11" Type="varchar" />
+          <Property Name="Email" MaxLength="50" Type="nvarchar" />
+          <Property Name="IsActive" Nullable="false" Type="bit" />
+        </EntityType>
+        <EntityType Name="Students">
+          <Key>
+            <PropertyRef Name="StudentId" />
+          </Key>
+          <Property Name="StudentId" Nullable="false" StoreGeneratedPattern="Identity" Type="bigint" />
+          <Property Name="StudentNo" Nullable="false" MaxLength="10" Type="varchar" />
+          <Property Name="FirstName" MaxLength="50" Type="nvarchar" />
+          <Property Name="LastName" MaxLength="50" Type="nvarchar" />
+          <Property Name="BirthDay" Nullable="false" Type="datetime" />
+          <Property Name="Address" MaxLength="250" Type="nvarchar" />
+          <Property Name="CMND" MaxLength="10" Type="varchar" />
+          <Property Name="Phone" MaxLength="11" Type="varchar" />
+          <Property Name="HomePhone" MaxLength="11" Type="varchar" />
+          <Property Name="Email" MaxLength="50" Type="nvarchar" />
+          <Property Name="UserName" MaxLength="20" Type="nvarchar" />
+          <Property Name="PassWord" MaxLength="50" Type="nvarchar" />
+          <Property Name="SchoolYear" Nullable="false" Type="int" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="Images" MaxLength="250" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="StudentTestDetails">
+          <Key>
+            <PropertyRef Name="FK_TestId" />
+            <PropertyRef Name="FK_StudentId" />
+            <PropertyRef Name="FK_QuestionId" />
+          </Key>
+          <Property Name="FK_TestId" Nullable="false" Type="bigint" />
+          <Property Name="FK_StudentId" Nullable="false" Type="bigint" />
+          <Property Name="FK_QuestionId" Nullable="false" Type="bigint" />
+          <Property Name="FK_AnserId" Type="bigint" />
+        </EntityType>
+        <EntityType Name="StudentTests">
+          <Key>
+            <PropertyRef Name="FK_StudenId" />
+            <PropertyRef Name="FK_TestId" />
+          </Key>
+          <Property Name="FK_StudenId" Nullable="false" Type="bigint" />
+          <Property Name="FK_TestId" Nullable="false" Type="bigint" />
+          <Property Name="Score" Type="float" />
+          <Property Name="Description" MaxLength="250" Type="nvarchar" />
+          <Property Name="QuestionStructure" Type="xml" />
+          <Property Name="CorrectNo" Type="int" />
+          <Property Name="WrongNo" Type="int" />
+          <Property Name="NotDone" Type="int" />
+          <Property Name="DoneTime" Type="int" />
+        </EntityType>
+        <EntityType Name="Subjects">
+          <Key>
+            <PropertyRef Name="SubjectId" />
+          </Key>
+          <Property Name="SubjectId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+          <Property Name="SubjectNo" MaxLength="50" Type="nvarchar" />
+          <Property Name="Name" MaxLength="250" Type="nvarchar" />
+          <Property Name="IsDel" Type="bit" />
+          <Property Name="SubjectGuid" Nullable="false" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="SubjectsClass">
+          <Key>
+            <PropertyRef Name="SubjectsClassId" />
+          </Key>
+          <Property Name="SubjectsClassId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+          <Property Name="SubjectsClassNo" Nullable="false" MaxLength="50" Type="varchar" />
+          <Property Name="SubjectsClassName" MaxLength="250" Type="nvarchar" />
+          <Property Name="FromDate" Nullable="false" Type="datetime" />
+          <Property Name="ToDate" Nullable="false" Type="datetime" />
+          <Property Name="FK_TeacherIdMain" Nullable="false" Type="int" />
+          <Property Name="FK_TeacherIdSubject" Nullable="false" Type="int" />
+          <Property Name="Partner" MaxLength="250" Type="nvarchar" />
+          <Property Name="ContractValue" Nullable="false" Type="int" />
+          <Property Name="FK_SubjectId" Nullable="false" Type="int" />
+          <Property Name="IsDelete" Nullable="false" Type="bit" />
+          <Property Name="OpenOut" Nullable="false" Type="bit" />
+          <Property Name="FK_DepartmentId" Nullable="false" Type="int" />
+        </EntityType>
+        <EntityType Name="SubjectsClassStudents">
+          <Key>
+            <PropertyRef Name="FK_SubjectClassId" />
+            <PropertyRef Name="FK_StudentId" />
+          </Key>
+          <Property Name="FK_SubjectClassId" Nullable="false" Type="int" />
+          <Property Name="FK_StudentId" Nullable="false" Type="bigint" />
+        </EntityType>
+        <EntityType Name="SubjectsMultiTests">
+          <Key>
+            <PropertyRef Name="FK_SubjectId" />
+            <PropertyRef Name="FK_MultiTestId" />
+          </Key>
+          <Property Name="FK_SubjectId" Nullable="false" Type="int" />
+          <Property Name="FK_MultiTestId" Nullable="false" Type="bigint" />
+          <Property Name="EasyNo" Nullable="false" Type="int" />
+          <Property Name="NormalNo" Nullable="false" Type="int" />
+          <Property Name="HardNo" Nullable="false" Type="int" />
+          <Property Name="EasyNo1" Nullable="false" Type="int" />
+          <Property Name="NormalNo1" Nullable="false" Type="int" />
+          <Property Name="HardNo1" Nullable="false" Type="int" />
+        </EntityType>
+        <EntityType Name="TeacherOperations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+          <Property Name="TeacherId" Nullable="false" Type="int" />
+          <Property Name="OperationName" Nullable="false" MaxLength="100" Type="nvarchar" />
+          <Property Name="Enable" Nullable="false" Type="bit" />
+        </EntityType>
+        <EntityType Name="Teachers">
+          <Key>
+            <PropertyRef Name="TeacherId" />
+          </Key>
+          <Property Name="TeacherId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+          <Property Name="FirstName" Nullable="false" MaxLength="50" Type="nvarchar" />
+          <Property Name="LastName" Nullable="false" MaxLength="50" Type="nvarchar" />
+          <Property Name="Birthday" Nullable="false" Type="datetime" />
+          <Property Name="Phone" MaxLength="11" Type="varchar" />
+          <Property Name="HomePhone" MaxLength="11" Type="varchar" />
+          <Property Name="Email" MaxLength="50" Type="nvarchar" />
+          <Property Name="Username" Nullable="false" MaxLength="20" Type="nvarchar" />
+          <Property Name="PassWord" MaxLength="50" Type="nvarchar" />
+          <Property Name="IsActive" Nullable="false" Type="bit" />
+          <Property Name="FK_DepartmentId" Nullable="false" Type="int" />
+          <Property Name="Roles" Nullable="false" Type="int" />
+          <Property Name="Images" MaxLength="250" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="TestCopies">
+          <Key>
+            <PropertyRef Name="TestCopyId" />
+          </Key>
+          <Property Name="TestCopyId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+          <Property Name="FK_TestId" Nullable="false" Type="bigint" />
+          <Property Name="TestCopyStructure" Nullable="false" Type="xml" />
+        </EntityType>
+        <EntityType Name="TestQuestions">
+          <Key>
+            <PropertyRef Name="TestId" />
+            <PropertyRef Name="QuestionId" />
+          </Key>
+          <Property Name="TestId" Nullable="false" Type="bigint" />
+          <Property Name="QuestionId" Nullable="false" Type="bigint" />
+          <Property Name="Mark" Type="float" />
+        </EntityType>
+        <EntityType Name="Tests">
+          <Key>
+            <PropertyRef Name="TestId" />
+          </Key>
+          <Property Name="TestId" Nullable="false" StoreGeneratedPattern="Identity" Type="bigint" />
+          <Property Name="TestNo" Nullable="false" MaxLength="20" Type="nchar" />
+          <Property Name="Name" Nullable="false" MaxLength="250" Type="nvarchar" />
+          <Property Name="FK_SubjectId" Nullable="false" Type="int" />
+          <Property Name="TestDate" Nullable="false" Type="datetime" />
+          <Property Name="Time" Nullable="false" Type="int" />
+          <Property Name="CreatedBy" Nullable="false" MaxLength="20" Type="varchar" />
+          <Property Name="UpdatedBy" Nullable="false" MaxLength="20" Type="varchar" />
+          <Property Name="CreatedDate" Nullable="false" Type="datetime" />
+          <Property Name="UpdatedDate" Nullable="false" Type="datetime" />
+          <Property Name="Purpose" Nullable="false" Type="int" />
+          <Property Name="CopyNo" Nullable="false" Type="int" />
+          <Property Name="EasyNo" Nullable="false" Type="int" />
+          <Property Name="NormalNo" Nullable="false" Type="int" />
+          <Property Name="HardNo" Nullable="false" Type="int" />
+          <Property Name="IsLimited" Type="bit" />
+          <Property Name="IsDeleted" Nullable="false" Type="bit" />
+        </EntityType>
+        <EntityType Name="UserSubjectRights">
+          <Key>
+            <PropertyRef Name="FK_TeacherId" />
+            <PropertyRef Name="FK_SubjectId" />
+          </Key>
+          <Property Name="FK_TeacherId" Nullable="false" Type="int" />
+          <Property Name="FK_SubjectId" Nullable="false" Type="int" />
+          <Property Name="Right" Nullable="false" Type="int" />
+        </EntityType>
+        <Association Name="FK_Answers_Questions">
+          <End Type="NganHangModel.Store.Questions" Multiplicity="1" Role="Questions" />
+          <End Type="NganHangModel.Store.Answers" Multiplicity="*" Role="Answers" />
+          <ReferentialConstraint>
+            <Principal Role="Questions">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="Answers">
+              <PropertyRef Name="FK_QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MultiTestCopies_MultiTests">
+          <End Type="NganHangModel.Store.MultiTests" Multiplicity="1" Role="MultiTests" />
+          <End Type="NganHangModel.Store.MultiTestCopies" Multiplicity="*" Role="MultiTestCopies" />
+          <ReferentialConstraint>
+            <Principal Role="MultiTests">
+              <PropertyRef Name="MultiTestId" />
+            </Principal>
+            <Dependent Role="MultiTestCopies">
+              <PropertyRef Name="FK_MultiTestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MultiTestQuestions_MultiTests">
+          <End Type="NganHangModel.Store.MultiTests" Multiplicity="1" Role="MultiTests" />
+          <End Type="NganHangModel.Store.MultiTestQuestions" Multiplicity="*" Role="MultiTestQuestions" />
+          <ReferentialConstraint>
+            <Principal Role="MultiTests">
+              <PropertyRef Name="MultiTestId" />
+            </Principal>
+            <Dependent Role="MultiTestQuestions">
+              <PropertyRef Name="FK_MultiTestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MultiTestQuestions_Questions">
+          <End Type="NganHangModel.Store.Questions" Multiplicity="1" Role="Questions" />
+          <End Type="NganHangModel.Store.MultiTestQuestions" Multiplicity="*" Role="MultiTestQuestions" />
+          <ReferentialConstraint>
+            <Principal Role="Questions">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="MultiTestQuestions">
+              <PropertyRef Name="FK_QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Questions_Subjects">
+          <End Type="NganHangModel.Store.Subjects" Multiplicity="1" Role="Subjects" />
+          <End Type="NganHangModel.Store.Questions" Multiplicity="*" Role="Questions" />
+          <ReferentialConstraint>
+            <Principal Role="Subjects">
+              <PropertyRef Name="SubjectId" />
+            </Principal>
+            <Dependent Role="Questions">
+              <PropertyRef Name="FK_SubjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentTestDetails_Questions">
+          <End Type="NganHangModel.Store.Questions" Multiplicity="1" Role="Questions" />
+          <End Type="NganHangModel.Store.StudentTestDetails" Multiplicity="*" Role="StudentTestDetails" />
+          <ReferentialConstraint>
+            <Principal Role="Questions">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="StudentTestDetails">
+              <PropertyRef Name="FK_QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentTestDetails_Students">
+          <End Type="NganHangModel.Store.Students" Multiplicity="1" Role="Students" />
+          <End Type="NganHangModel.Store.StudentTestDetails" Multiplicity="*" Role="StudentTestDetails" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="StudentId" />
+            </Principal>
+            <Dependent Role="StudentTestDetails">
+              <PropertyRef Name="FK_StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentTestDetails_Tests">
+          <End Type="NganHangModel.Store.Tests" Multiplicity="1" Role="Tests" />
+          <End Type="NganHangModel.Store.StudentTestDetails" Multiplicity="*" Role="StudentTestDetails" />
+          <ReferentialConstraint>
+            <Principal Role="Tests">
+              <PropertyRef Name="TestId" />
+            </Principal>
+            <Dependent Role="StudentTestDetails">
+              <PropertyRef Name="FK_TestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentTests_Students">
+          <End Type="NganHangModel.Store.Students" Multiplicity="1" Role="Students" />
+          <End Type="NganHangModel.Store.StudentTests" Multiplicity="*" Role="StudentTests" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="StudentId" />
+            </Principal>
+            <Dependent Role="StudentTests">
+              <PropertyRef Name="FK_StudenId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentTests_Tests">
+          <End Type="NganHangModel.Store.Tests" Multiplicity="1" Role="Tests" />
+          <End Type="NganHangModel.Store.StudentTests" Multiplicity="*" Role="StudentTests" />
+          <ReferentialConstraint>
+            <Principal Role="Tests">
+              <PropertyRef Name="TestId" />
+            </Principal>
+            <Dependent Role="StudentTests">
+              <PropertyRef Name="FK_TestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsClass_Departments">
+          <End Type="NganHangModel.Store.Departments" Multiplicity="1" Role="Departments" />
+          <End Type="NganHangModel.Store.SubjectsClass" Multiplicity="*" Role="SubjectsClass" />
+          <ReferentialConstraint>
+            <Principal Role="Departments">
+              <PropertyRef Name="DepartmentId" />
+            </Principal>
+            <Dependent Role="SubjectsClass">
+              <PropertyRef Name="FK_DepartmentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsClass_MainTeachers">
+          <End Type="NganHangModel.Store.Teachers" Multiplicity="1" Role="Teachers" />
+          <End Type="NganHangModel.Store.SubjectsClass" Multiplicity="*" Role="SubjectsClass" />
+          <ReferentialConstraint>
+            <Principal Role="Teachers">
+              <PropertyRef Name="TeacherId" />
+            </Principal>
+            <Dependent Role="SubjectsClass">
+              <PropertyRef Name="FK_TeacherIdMain" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsClass_Subjects">
+          <End Type="NganHangModel.Store.Subjects" Multiplicity="1" Role="Subjects" />
+          <End Type="NganHangModel.Store.SubjectsClass" Multiplicity="*" Role="SubjectsClass" />
+          <ReferentialConstraint>
+            <Principal Role="Subjects">
+              <PropertyRef Name="SubjectId" />
+            </Principal>
+            <Dependent Role="SubjectsClass">
+              <PropertyRef Name="FK_SubjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsClass_SubjectTeachers">
+          <End Type="NganHangModel.Store.Teachers" Multiplicity="1" Role="Teachers" />
+          <End Type="NganHangModel.Store.SubjectsClass" Multiplicity="*" Role="SubjectsClass" />
+          <ReferentialConstraint>
+            <Principal Role="Teachers">
+              <PropertyRef Name="TeacherId" />
+            </Principal>
+            <Dependent Role="SubjectsClass">
+              <PropertyRef Name="FK_TeacherIdSubject" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsClassStudents_Students">
+          <End Type="NganHangModel.Store.Students" Multiplicity="1" Role="Students" />
+          <End Type="NganHangModel.Store.SubjectsClassStudents" Multiplicity="*" Role="SubjectsClassStudents" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="StudentId" />
+            </Principal>
+            <Dependent Role="SubjectsClassStudents">
+              <PropertyRef Name="FK_StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsClassStudents_Subjects">
+          <End Type="NganHangModel.Store.SubjectsClass" Multiplicity="1" Role="SubjectsClass" />
+          <End Type="NganHangModel.Store.SubjectsClassStudents" Multiplicity="*" Role="SubjectsClassStudents" />
+          <ReferentialConstraint>
+            <Principal Role="SubjectsClass">
+              <PropertyRef Name="SubjectsClassId" />
+            </Principal>
+            <Dependent Role="SubjectsClassStudents">
+              <PropertyRef Name="FK_SubjectClassId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsMultiTests_MultiTests">
+          <End Type="NganHangModel.Store.MultiTests" Multiplicity="1" Role="MultiTests" />
+          <End Type="NganHangModel.Store.SubjectsMultiTests" Multiplicity="*" Role="SubjectsMultiTests" />
+          <ReferentialConstraint>
+            <Principal Role="MultiTests">
+              <PropertyRef Name="MultiTestId" />
+            </Principal>
+            <Dependent Role="SubjectsMultiTests">
+              <PropertyRef Name="FK_MultiTestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsMultiTests_Subjects">
+          <End Type="NganHangModel.Store.Subjects" Multiplicity="1" Role="Subjects" />
+          <End Type="NganHangModel.Store.SubjectsMultiTests" Multiplicity="*" Role="SubjectsMultiTests" />
+          <ReferentialConstraint>
+            <Principal Role="Subjects">
+              <PropertyRef Name="SubjectId" />
+            </Principal>
+            <Dependent Role="SubjectsMultiTests">
+              <PropertyRef Name="FK_SubjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teachers_Departments">
+          <End Type="NganHangModel.Store.Departments" Multiplicity="1" Role="Departments" />
+          <End Type="NganHangModel.Store.Teachers" Multiplicity="*" Role="Teachers" />
+          <ReferentialConstraint>
+            <Principal Role="Departments">
+              <PropertyRef Name="DepartmentId" />
+            </Principal>
+            <Dependent Role="Teachers">
+              <PropertyRef Name="FK_DepartmentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TestCopies_Tests">
+          <End Type="NganHangModel.Store.Tests" Multiplicity="1" Role="Tests" />
+          <End Type="NganHangModel.Store.TestCopies" Multiplicity="*" Role="TestCopies" />
+          <ReferentialConstraint>
+            <Principal Role="Tests">
+              <PropertyRef Name="TestId" />
+            </Principal>
+            <Dependent Role="TestCopies">
+              <PropertyRef Name="FK_TestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TestQuestions_Questions">
+          <End Type="NganHangModel.Store.Questions" Multiplicity="1" Role="Questions" />
+          <End Type="NganHangModel.Store.TestQuestions" Multiplicity="*" Role="TestQuestions" />
+          <ReferentialConstraint>
+            <Principal Role="Questions">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="TestQuestions">
+              <PropertyRef Name="QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TestQuestions_Tests">
+          <End Type="NganHangModel.Store.Tests" Multiplicity="1" Role="Tests" />
+          <End Type="NganHangModel.Store.TestQuestions" Multiplicity="*" Role="TestQuestions" />
+          <ReferentialConstraint>
+            <Principal Role="Tests">
+              <PropertyRef Name="TestId" />
+            </Principal>
+            <Dependent Role="TestQuestions">
+              <PropertyRef Name="TestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserSubjectRights_Subjects">
+          <End Type="NganHangModel.Store.Subjects" Multiplicity="1" Role="Subjects" />
+          <End Type="NganHangModel.Store.UserSubjectRights" Multiplicity="*" Role="UserSubjectRights" />
+          <ReferentialConstraint>
+            <Principal Role="Subjects">
+              <PropertyRef Name="SubjectId" />
+            </Principal>
+            <Dependent Role="UserSubjectRights">
+              <PropertyRef Name="FK_SubjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserSubjectRights_Teachers">
+          <End Type="NganHangModel.Store.Teachers" Multiplicity="1" Role="Teachers" />
+          <End Type="NganHangModel.Store.UserSubjectRights" Multiplicity="*" Role="UserSubjectRights" />
+          <ReferentialConstraint>
+            <Principal Role="Teachers">
+              <PropertyRef Name="TeacherId" />
+            </Principal>
+            <Dependent Role="UserSubjectRights">
+              <PropertyRef Name="FK_TeacherId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NganHangModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="NganHangEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Answers" EntityType="NganHangModel.Answer" />
+          <EntitySet Name="Departments" EntityType="NganHangModel.Department" />
+          <EntitySet Name="MultiTestCopies" EntityType="NganHangModel.MultiTestCopy" />
+          <EntitySet Name="MultiTestQuestions" EntityType="NganHangModel.MultiTestQuestion" />
+          <EntitySet Name="MultiTests" EntityType="NganHangModel.MultiTest" />
+          <EntitySet Name="Operations" EntityType="NganHangModel.Operation" />
+          <EntitySet Name="Questions" EntityType="NganHangModel.Question" />
+          <EntitySet Name="SchoolInfos" EntityType="NganHangModel.SchoolInfo" />
+          <EntitySet Name="Students" EntityType="NganHangModel.Student" />
+          <EntitySet Name="StudentTestDetails" EntityType="NganHangModel.StudentTestDetail" />
+          <EntitySet Name="StudentTests" EntityType="NganHangModel.StudentTest" />
+          <EntitySet Name="Subjects" EntityType="NganHangModel.Subject" />
+          <EntitySet Name="SubjectsClasses" EntityType="NganHangModel.SubjectsClass" />
+          <EntitySet Name="SubjectsMultiTests" EntityType="NganHangModel.SubjectsMultiTest" />
+          <EntitySet Name="TeacherOperations" EntityType="NganHangModel.TeacherOperation" />
+          <EntitySet Name="Teachers" EntityType="NganHangModel.Teacher" />
+          <EntitySet Name="TestCopies" EntityType="NganHangModel.TestCopy" />
+          <EntitySet Name="TestQuestions" EntityType="NganHangModel.TestQuestion" />
+          <EntitySet Name="Tests" EntityType="NganHangModel.Test" />
+          <EntitySet Name="UserSubjectRights" EntityType="NganHangModel.UserSubjectRight" />
+          <AssociationSet Name="FK_Answers_Questions" Association="NganHangModel.FK_Answers_Questions">
+            <End EntitySet="Questions" Role="Question" />
+            <End EntitySet="Answers" Role="Answer" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsClass_Departments" Association="NganHangModel.FK_SubjectsClass_Departments">
+            <End EntitySet="Departments" Role="Department" />
+            <End EntitySet="SubjectsClasses" Role="SubjectsClass" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teachers_Departments" Association="NganHangModel.FK_Teachers_Departments">
+            <End EntitySet="Departments" Role="Department" />
+            <End EntitySet="Teachers" Role="Teacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MultiTestCopies_MultiTests" Association="NganHangModel.FK_MultiTestCopies_MultiTests">
+            <End EntitySet="MultiTests" Role="MultiTest" />
+            <End EntitySet="MultiTestCopies" Role="MultiTestCopy" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MultiTestQuestions_MultiTests" Association="NganHangModel.FK_MultiTestQuestions_MultiTests">
+            <End EntitySet="MultiTests" Role="MultiTest" />
+            <End EntitySet="MultiTestQuestions" Role="MultiTestQuestion" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MultiTestQuestions_Questions" Association="NganHangModel.FK_MultiTestQuestions_Questions">
+            <End EntitySet="Questions" Role="Question" />
+            <End EntitySet="MultiTestQuestions" Role="MultiTestQuestion" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsMultiTests_MultiTests" Association="NganHangModel.FK_SubjectsMultiTests_MultiTests">
+            <End EntitySet="MultiTests" Role="MultiTest" />
+            <End EntitySet="SubjectsMultiTests" Role="SubjectsMultiTest" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Questions_Subjects" Association="NganHangModel.FK_Questions_Subjects">
+            <End EntitySet="Subjects" Role="Subject" />
+            <End EntitySet="Questions" Role="Question" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentTestDetails_Questions" Association="NganHangModel.FK_StudentTestDetails_Questions">
+            <End EntitySet="Questions" Role="Question" />
+            <End EntitySet="StudentTestDetails" Role="StudentTestDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TestQuestions_Questions" Association="NganHangModel.FK_TestQuestions_Questions">
+            <End EntitySet="Questions" Role="Question" />
+            <End EntitySet="TestQuestions" Role="TestQuestion" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentTestDetails_Students" Association="NganHangModel.FK_StudentTestDetails_Students">
+            <End EntitySet="Students" Role="Student" />
+            <End EntitySet="StudentTestDetails" Role="StudentTestDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentTests_Students" Association="NganHangModel.FK_StudentTests_Students">
+            <End EntitySet="Students" Role="Student" />
+            <End EntitySet="StudentTests" Role="StudentTest" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentTestDetails_Tests" Association="NganHangModel.FK_StudentTestDetails_Tests">
+            <End EntitySet="Tests" Role="Test" />
+            <End EntitySet="StudentTestDetails" Role="StudentTestDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentTests_Tests" Association="NganHangModel.FK_StudentTests_Tests">
+            <End EntitySet="Tests" Role="Test" />
+            <End EntitySet="StudentTests" Role="StudentTest" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsClass_Subjects" Association="NganHangModel.FK_SubjectsClass_Subjects">
+            <End EntitySet="Subjects" Role="Subject" />
+            <End EntitySet="SubjectsClasses" Role="SubjectsClass" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsMultiTests_Subjects" Association="NganHangModel.FK_SubjectsMultiTests_Subjects">
+            <End EntitySet="Subjects" Role="Subject" />
+            <End EntitySet="SubjectsMultiTests" Role="SubjectsMultiTest" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserSubjectRights_Subjects" Association="NganHangModel.FK_UserSubjectRights_Subjects">
+            <End EntitySet="Subjects" Role="Subject" />
+            <End EntitySet="UserSubjectRights" Role="UserSubjectRight" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsClass_MainTeachers" Association="NganHangModel.FK_SubjectsClass_MainTeachers">
+            <End EntitySet="Teachers" Role="Teacher" />
+            <End EntitySet="SubjectsClasses" Role="SubjectsClass" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubjectsClass_SubjectTeachers" Association="NganHangModel.FK_SubjectsClass_SubjectTeachers">
+            <End EntitySet="Teachers" Role="Teacher" />
+            <End EntitySet="SubjectsClasses" Role="SubjectsClass" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserSubjectRights_Teachers" Association="NganHangModel.FK_UserSubjectRights_Teachers">
+            <End EntitySet="Teachers" Role="Teacher" />
+            <End EntitySet="UserSubjectRights" Role="UserSubjectRight" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TestCopies_Tests" Association="NganHangModel.FK_TestCopies_Tests">
+            <End EntitySet="Tests" Role="Test" />
+            <End EntitySet="TestCopies" Role="TestCopy" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TestQuestions_Tests" Association="NganHangModel.FK_TestQuestions_Tests">
+            <End EntitySet="Tests" Role="Test" />
+            <End EntitySet="TestQuestions" Role="TestQuestion" />
+          </AssociationSet>
+          <AssociationSet Name="SubjectsClassStudents" Association="NganHangModel.SubjectsClassStudents">
+            <End EntitySet="Students" Role="Student" />
+            <End EntitySet="SubjectsClasses" Role="SubjectsClass" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Answer">
+          <Key>
+            <PropertyRef Name="AnswerId" />
+          </Key>
+          <Property Name="AnswerId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int64" />
+          <Property Name="Content" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="FK_QuestionId" Nullable="false" Type="Int64" />
+          <Property Name="IsAnswer" Nullable="false" Type="Boolean" />
+          <NavigationProperty Name="Question" Relationship="NganHangModel.FK_Answers_Questions" FromRole="Answer" ToRole="Question" />
+        </EntityType>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="DepartmentId" />
+          </Key>
+          <Property Name="DepartmentId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="DepartmentName" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="DepartmentNo" MaxLength="10" FixedLength="true" Unicode="true" Type="String" />
+          <NavigationProperty Name="SubjectsClasses" Relationship="NganHangModel.FK_SubjectsClass_Departments" FromRole="Department" ToRole="SubjectsClass" />
+          <NavigationProperty Name="Teachers" Relationship="NganHangModel.FK_Teachers_Departments" FromRole="Department" ToRole="Teacher" />
+        </EntityType>
+        <EntityType Name="MultiTestCopy">
+          <Key>
+            <PropertyRef Name="MultiTestCopyId" />
+          </Key>
+          <Property Name="MultiTestCopyId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="FK_MultiTestId" Nullable="false" Type="Int64" />
+          <Property Name="MultiTestCopyStructure" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+          <NavigationProperty Name="MultiTest" Relationship="NganHangModel.FK_MultiTestCopies_MultiTests" FromRole="MultiTestCopy" ToRole="MultiTest" />
+        </EntityType>
+        <EntityType Name="MultiTestQuestion">
+          <Key>
+            <PropertyRef Name="FK_MultiTestId" />
+            <PropertyRef Name="FK_QuestionId" />
+          </Key>
+          <Property Name="FK_MultiTestId" Nullable="false" Type="Int64" />
+          <Property Name="FK_QuestionId" Nullable="false" Type="Int64" />
+          <Property Name="Mark" Type="Double" />
+          <NavigationProperty Name="MultiTest" Relationship="NganHangModel.FK_MultiTestQuestions_MultiTests" FromRole="MultiTestQuestion" ToRole="MultiTest" />
+          <NavigationProperty Name="Question" Relationship="NganHangModel.FK_MultiTestQuestions_Questions" FromRole="MultiTestQuestion" ToRole="Question" />
+        </EntityType>
+        <EntityType Name="MultiTest">
+          <Key>
+            <PropertyRef Name="MultiTestId" />
+          </Key>
+          <Property Name="MultiTestId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int64" />
+          <Property Name="MultiTestNo" Nullable="false" MaxLength="20" FixedLength="true" Unicode="true" Type="String" />
+          <Property Name="MultiTestName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="MultiTestDate" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="Time" Nullable="false" Type="Int32" />
+          <Property Name="CreatedBy" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="UpdatedBy" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="CreatedDate" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="UpdatedDate" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="Purpose" Nullable="false" Type="Int32" />
+          <Property Name="CopyTestNo" Nullable="false" Type="Int32" />
+          <Property Name="TotalQuestions" Nullable="false" Type="Int32" />
+          <Property Name="IsMixedTest" Nullable="false" Type="Boolean" />
+          <Property Name="IsDeleted" Nullable="false" Type="Boolean" />
+          <NavigationProperty Name="MultiTestCopies" Relationship="NganHangModel.FK_MultiTestCopies_MultiTests" FromRole="MultiTest" ToRole="MultiTestCopy" />
+          <NavigationProperty Name="MultiTestQuestions" Relationship="NganHangModel.FK_MultiTestQuestions_MultiTests" FromRole="MultiTest" ToRole="MultiTestQuestion" />
+          <NavigationProperty Name="SubjectsMultiTests" Relationship="NganHangModel.FK_SubjectsMultiTests_MultiTests" FromRole="MultiTest" ToRole="SubjectsMultiTest" />
+        </EntityType>
+        <EntityType Name="Operation">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="OperationName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" Type="String" />
+        </EntityType>
+        <EntityType Name="Question">
+          <Key>
+            <PropertyRef Name="QuestionId" />
+          </Key>
+          <Property Name="QuestionId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int64" />
+          <Property Name="Content" MaxLength="500" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Level" Nullable="false" Type="Int32" />
+          <Property Name="FK_SubjectId" Nullable="false" Type="Int32" />
+          <Property Name="Type" Nullable="false" Type="Int32" />
+          <Property Name="CreatedBy" MaxLength="20" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="UpdatedBy" MaxLength="20" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="CreatedDate" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="UpdatedDate" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="Time" Nullable="false" Type="Double" />
+          <Property Name="Purpose" Nullable="false" Type="Int32" />
+          <Property Name="IsDelete" Nullable="false" Type="Boolean" />
+          <Property Name="QuestionGuid" Nullable="false" Type="Guid" />
+          <Property Name="IsAnswerRandom" Type="Boolean" />
+          <NavigationProperty Name="Answers" Relationship="NganHangModel.FK_Answers_Questions" FromRole="Question" ToRole="Answer" />
+          <NavigationProperty Name="MultiTestQuestions" Relationship="NganHangModel.FK_MultiTestQuestions_Questions" FromRole="Question" ToRole="MultiTestQuestion" />
+          <NavigationProperty Name="Subject" Relationship="NganHangModel.FK_Questions_Subjects" FromRole="Question" ToRole="Subject" />
+          <NavigationProperty Name="StudentTestDetails" Relationship="NganHangModel.FK_StudentTestDetails_Questions" FromRole="Question" ToRole="StudentTestDetail" />
+          <NavigationProperty Name="TestQuestions" Relationship="NganHangModel.FK_TestQuestions_Questions" FromRole="Question" ToRole="TestQuestion" />
+        </EntityType>
+        <EntityType Name="SchoolInfo">
+          <Key>
+            <PropertyRef Name="SchoolInfoId" />
+          </Key>
+          <Property Name="SchoolInfoId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="SchoolName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="HomePhone" MaxLength="11" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="Phone" MaxLength="11" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="Email" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="IsActive" Nullable="false" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="StudentId" />
+          </Key>
+          <Property Name="StudentId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int64" />
+          <Property Name="StudentNo" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="FirstName" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="LastName" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="BirthDay" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="Address" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="CMND" MaxLength="10" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="Phone" MaxLength="11" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="HomePhone" MaxLength="11" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="Email" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="UserName" MaxLength="20" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="PassWord" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="SchoolYear" Nullable="false" Type="Int32" />
+          <Property Name="IsActive" Type="Boolean" />
+          <Property Name="Images" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <NavigationProperty Name="StudentTestDetails" Relationship="NganHangModel.FK_StudentTestDetails_Students" FromRole="Student" ToRole="StudentTestDetail" />
+          <NavigationProperty Name="StudentTests" Relationship="NganHangModel.FK_StudentTests_Students" FromRole="Student" ToRole="StudentTest" />
+          <NavigationProperty Name="SubjectsClasses" Relationship="NganHangModel.SubjectsClassStudents" FromRole="Student" ToRole="SubjectsClass" />
+        </EntityType>
+        <EntityType Name="StudentTestDetail">
+          <Key>
+            <PropertyRef Name="FK_TestId" />
+            <PropertyRef Name="FK_StudentId" />
+            <PropertyRef Name="FK_QuestionId" />
+          </Key>
+          <Property Name="FK_TestId" Nullable="false" Type="Int64" />
+          <Property Name="FK_StudentId" Nullable="false" Type="Int64" />
+          <Property Name="FK_QuestionId" Nullable="false" Type="Int64" />
+          <Property Name="FK_AnserId" Type="Int64" />
+          <NavigationProperty Name="Question" Relationship="NganHangModel.FK_StudentTestDetails_Questions" FromRole="StudentTestDetail" ToRole="Question" />
+          <NavigationProperty Name="Student" Relationship="NganHangModel.FK_StudentTestDetails_Students" FromRole="StudentTestDetail" ToRole="Student" />
+          <NavigationProperty Name="Test" Relationship="NganHangModel.FK_StudentTestDetails_Tests" FromRole="StudentTestDetail" ToRole="Test" />
+        </EntityType>
+        <EntityType Name="StudentTest">
+          <Key>
+            <PropertyRef Name="FK_StudenId" />
+            <PropertyRef Name="FK_TestId" />
+          </Key>
+          <Property Name="FK_StudenId" Nullable="false" Type="Int64" />
+          <Property Name="FK_TestId" Nullable="false" Type="Int64" />
+          <Property Name="Score" Type="Double" />
+          <Property Name="Description" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="QuestionStructure" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="CorrectNo" Type="Int32" />
+          <Property Name="WrongNo" Type="Int32" />
+          <Property Name="NotDone" Type="Int32" />
+          <Property Name="DoneTime" Type="Int32" />
+          <NavigationProperty Name="Student" Relationship="NganHangModel.FK_StudentTests_Students" FromRole="StudentTest" ToRole="Student" />
+          <NavigationProperty Name="Test" Relationship="NganHangModel.FK_StudentTests_Tests" FromRole="StudentTest" ToRole="Test" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="SubjectId" />
+          </Key>
+          <Property Name="SubjectId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="SubjectNo" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Name" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="IsDel" Type="Boolean" />
+          <Property Name="SubjectGuid" Nullable="false" Type="Guid" />
+          <NavigationProperty Name="Questions" Relationship="NganHangModel.FK_Questions_Subjects" FromRole="Subject" ToRole="Question" />
+          <NavigationProperty Name="SubjectsClasses" Relationship="NganHangModel.FK_SubjectsClass_Subjects" FromRole="Subject" ToRole="SubjectsClass" />
+          <NavigationProperty Name="SubjectsMultiTests" Relationship="NganHangModel.FK_SubjectsMultiTests_Subjects" FromRole="Subject" ToRole="SubjectsMultiTest" />
+          <NavigationProperty Name="UserSubjectRights" Relationship="NganHangModel.FK_UserSubjectRights_Subjects" FromRole="Subject" ToRole="UserSubjectRight" />
+        </EntityType>
+        <EntityType Name="SubjectsClass">
+          <Key>
+            <PropertyRef Name="SubjectsClassId" />
+          </Key>
+          <Property Name="SubjectsClassId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="SubjectsClassNo" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="SubjectsClassName" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="FromDate" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="ToDate" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="FK_TeacherIdMain" Nullable="false" Type="Int32" />
+          <Property Name="FK_TeacherIdSubject" Nullable="false" Type="Int32" />
+          <Property Name="Partner" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="ContractValue" Nullable="false" Type="Int32" />
+          <Property Name="FK_SubjectId" Nullable="false" Type="Int32" />
+          <Property Name="IsDelete" Nullable="false" Type="Boolean" />
+          <Property Name="OpenOut" Nullable="false" Type="Boolean" />
+          <Property Name="FK_DepartmentId" Nullable="false" Type="Int32" />
+          <NavigationProperty Name="Department" Relationship="NganHangModel.FK_SubjectsClass_Departments" FromRole="SubjectsClass" ToRole="Department" />
+          <NavigationProperty Name="Subject" Relationship="NganHangModel.FK_SubjectsClass_Subjects" FromRole="SubjectsClass" ToRole="Subject" />
+          <NavigationProperty Name="Teacher" Relationship="NganHangModel.FK_SubjectsClass_MainTeachers" FromRole="SubjectsClass" ToRole="Teacher" />
+          <NavigationProperty Name="Teacher1" Relationship="NganHangModel.FK_SubjectsClass_SubjectTeachers" FromRole="SubjectsClass" ToRole="Teacher" />
+          <NavigationProperty Name="Students" Relationship="NganHangModel.SubjectsClassStudents" FromRole="SubjectsClass" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="SubjectsMultiTest">
+          <Key>
+            <PropertyRef Name="FK_SubjectId" />
+            <PropertyRef Name="FK_MultiTestId" />
+          </Key>
+          <Property Name="FK_SubjectId" Nullable="false" Type="Int32" />
+          <Property Name="FK_MultiTestId" Nullable="false" Type="Int64" />
+          <Property Name="EasyNo" Nullable="false" Type="Int32" />
+          <Property Name="NormalNo" Nullable="false" Type="Int32" />
+          <Property Name="HardNo" Nullable="false" Type="Int32" />
+          <Property Name="EasyNo1" Nullable="false" Type="Int32" />
+          <Property Name="NormalNo1" Nullable="false" Type="Int32" />
+          <Property Name="HardNo1" Nullable="false" Type="Int32" />
+          <NavigationProperty Name="MultiTest" Relationship="NganHangModel.FK_SubjectsMultiTests_MultiTests" FromRole="SubjectsMultiTest" ToRole="MultiTest" />
+          <NavigationProperty Name="Subject" Relationship="NganHangModel.FK_SubjectsMultiTests_Subjects" FromRole="SubjectsMultiTest" ToRole="Subject" />
+        </EntityType>
+        <EntityType Name="TeacherOperation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="TeacherId" Nullable="false" Type="Int32" />
+          <Property Name="OperationName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Enable" Nullable="false" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Teacher">
+          <Key>
+            <PropertyRef Name="TeacherId" />
+          </Key>
+          <Property Name="TeacherId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="LastName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Birthday" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="Phone" MaxLength="11" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="HomePhone" MaxLength="11" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="Email" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="Username" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="PassWord" MaxLength="50" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="IsActive" Nullable="false" Type="Boolean" />
+          <Property Name="FK_DepartmentId" Nullable="false" Type="Int32" />
+          <Property Name="Roles" Nullable="false" Type="Int32" />
+          <Property Name="Images" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <NavigationProperty Name="Department" Relationship="NganHangModel.FK_Teachers_Departments" FromRole="Teacher" ToRole="Department" />
+          <NavigationProperty Name="SubjectsClasses" Relationship="NganHangModel.FK_SubjectsClass_MainTeachers" FromRole="Teacher" ToRole="SubjectsClass" />
+          <NavigationProperty Name="SubjectsClasses1" Relationship="NganHangModel.FK_SubjectsClass_SubjectTeachers" FromRole="Teacher" ToRole="SubjectsClass" />
+          <NavigationProperty Name="UserSubjectRights" Relationship="NganHangModel.FK_UserSubjectRights_Teachers" FromRole="Teacher" ToRole="UserSubjectRight" />
+        </EntityType>
+        <EntityType Name="TestCopy">
+          <Key>
+            <PropertyRef Name="TestCopyId" />
+          </Key>
+          <Property Name="TestCopyId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+          <Property Name="FK_TestId" Nullable="false" Type="Int64" />
+          <Property Name="TestCopyStructure" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" Type="String" />
+          <NavigationProperty Name="Test" Relationship="NganHangModel.FK_TestCopies_Tests" FromRole="TestCopy" ToRole="Test" />
+        </EntityType>
+        <EntityType Name="TestQuestion">
+          <Key>
+            <PropertyRef Name="TestId" />
+            <PropertyRef Name="QuestionId" />
+          </Key>
+          <Property Name="TestId" Nullable="false" Type="Int64" />
+          <Property Name="QuestionId" Nullable="false" Type="Int64" />
+          <Property Name="Mark" Type="Double" />
+          <NavigationProperty Name="Question" Relationship="NganHangModel.FK_TestQuestions_Questions" FromRole="TestQuestion" ToRole="Question" />
+          <NavigationProperty Name="Test" Relationship="NganHangModel.FK_TestQuestions_Tests" FromRole="TestQuestion" ToRole="Test" />
+        </EntityType>
+        <EntityType Name="Test">
+          <Key>
+            <PropertyRef Name="TestId" />
+          </Key>
+          <Property Name="TestId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int64" />
+          <Property Name="TestNo" Nullable="false" MaxLength="20" FixedLength="true" Unicode="true" Type="String" />
+          <Property Name="Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" Type="String" />
+          <Property Name="FK_SubjectId" Nullable="false" Type="Int32" />
+          <Property Name="TestDate" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="Time" Nullable="false" Type="Int32" />
+          <Property Name="CreatedBy" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="UpdatedBy" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" Type="String" />
+          <Property Name="CreatedDate" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="UpdatedDate" Nullable="false" Precision="3" Type="DateTime" />
+          <Property Name="Purpose" Nullable="false" Type="Int32" />
+          <Property Name="CopyNo" Nullable="false" Type="Int32" />
+          <Property Name="EasyNo" Nullable="false" Type="Int32" />
+          <Property Name="NormalNo" Nullable="false" Type="Int32" />
+          <Property Name="HardNo" Nullable="false" Type="Int32" />
+          <Property Name="IsLimited" Type="Boolean" />
+          <Property Name="IsDeleted" Nullable="false" Type="Boolean" />
+          <NavigationProperty Name="StudentTestDetails" Relationship="NganHangModel.FK_StudentTestDetails_Tests" FromRole="Test" ToRole="StudentTestDetail" />
+          <NavigationProperty Name="StudentTests" Relationship="NganHangModel.FK_StudentTests_Tests" FromRole="Test" ToRole="StudentTest" />
+          <NavigationProperty Name="TestCopies" Relationship="NganHangModel.FK_TestCopies_Tests" FromRole="Test" ToRole="TestCopy" />
+          <NavigationProperty Name="TestQuestions" Relationship="NganHangModel.FK_TestQuestions_Tests" FromRole="Test" ToRole="TestQuestion" />
+        </EntityType>
+        <EntityType Name="UserSubjectRight">
+          <Key>
+            <PropertyRef Name="FK_TeacherId" />
+            <PropertyRef Name="FK_SubjectId" />
+          </Key>
+          <Property Name="FK_TeacherId" Nullable="false" Type="Int32" />
+          <Property Name="FK_SubjectId" Nullable="false" Type="Int32" />
+          <Property Name="Right" Nullable="false" Type="Int32" />
+          <NavigationProperty Name="Subject" Relationship="NganHangModel.FK_UserSubjectRights_Subjects" FromRole="UserSubjectRight" ToRole="Subject" />
+          <NavigationProperty Name="Teacher" Relationship="NganHangModel.FK_UserSubjectRights_Teachers" FromRole="UserSubjectRight" ToRole="Teacher" />
+        </EntityType>
+        <Association Name="FK_Answers_Questions">
+          <End Type="NganHangModel.Question" Multiplicity="1" Role="Question" />
+          <End Type="NganHangModel.Answer" Multiplicity="*" Role="Answer" />
+          <ReferentialConstraint>
+            <Principal Role="Question">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="Answer">
+              <PropertyRef Name="FK_QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsClass_Departments">
+          <End Type="NganHangModel.Department" Multiplicity="1" Role="Department" />
+          <End Type="NganHangModel.SubjectsClass" Multiplicity="*" Role="SubjectsClass" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="DepartmentId" />
+            </Principal>
+            <Dependent Role="SubjectsClass">
+              <PropertyRef Name="FK_DepartmentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teachers_Departments">
+          <End Type="NganHangModel.Department" Multiplicity="1" Role="Department" />
+          <End Type="NganHangModel.Teacher" Multiplicity="*" Role="Teacher" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="DepartmentId" />
+            </Principal>
+            <Dependent Role="Teacher">
+              <PropertyRef Name="FK_DepartmentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MultiTestCopies_MultiTests">
+          <End Type="NganHangModel.MultiTest" Multiplicity="1" Role="MultiTest" />
+          <End Type="NganHangModel.MultiTestCopy" Multiplicity="*" Role="MultiTestCopy" />
+          <ReferentialConstraint>
+            <Principal Role="MultiTest">
+              <PropertyRef Name="MultiTestId" />
+            </Principal>
+            <Dependent Role="MultiTestCopy">
+              <PropertyRef Name="FK_MultiTestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MultiTestQuestions_MultiTests">
+          <End Type="NganHangModel.MultiTest" Multiplicity="1" Role="MultiTest" />
+          <End Type="NganHangModel.MultiTestQuestion" Multiplicity="*" Role="MultiTestQuestion" />
+          <ReferentialConstraint>
+            <Principal Role="MultiTest">
+              <PropertyRef Name="MultiTestId" />
+            </Principal>
+            <Dependent Role="MultiTestQuestion">
+              <PropertyRef Name="FK_MultiTestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MultiTestQuestions_Questions">
+          <End Type="NganHangModel.Question" Multiplicity="1" Role="Question" />
+          <End Type="NganHangModel.MultiTestQuestion" Multiplicity="*" Role="MultiTestQuestion" />
+          <ReferentialConstraint>
+            <Principal Role="Question">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="MultiTestQuestion">
+              <PropertyRef Name="FK_QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsMultiTests_MultiTests">
+          <End Type="NganHangModel.MultiTest" Multiplicity="1" Role="MultiTest" />
+          <End Type="NganHangModel.SubjectsMultiTest" Multiplicity="*" Role="SubjectsMultiTest" />
+          <ReferentialConstraint>
+            <Principal Role="MultiTest">
+              <PropertyRef Name="MultiTestId" />
+            </Principal>
+            <Dependent Role="SubjectsMultiTest">
+              <PropertyRef Name="FK_MultiTestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Questions_Subjects">
+          <End Type="NganHangModel.Subject" Multiplicity="1" Role="Subject" />
+          <End Type="NganHangModel.Question" Multiplicity="*" Role="Question" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="SubjectId" />
+            </Principal>
+            <Dependent Role="Question">
+              <PropertyRef Name="FK_SubjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentTestDetails_Questions">
+          <End Type="NganHangModel.Question" Multiplicity="1" Role="Question" />
+          <End Type="NganHangModel.StudentTestDetail" Multiplicity="*" Role="StudentTestDetail" />
+          <ReferentialConstraint>
+            <Principal Role="Question">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="StudentTestDetail">
+              <PropertyRef Name="FK_QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TestQuestions_Questions">
+          <End Type="NganHangModel.Question" Multiplicity="1" Role="Question" />
+          <End Type="NganHangModel.TestQuestion" Multiplicity="*" Role="TestQuestion" />
+          <ReferentialConstraint>
+            <Principal Role="Question">
+              <PropertyRef Name="QuestionId" />
+            </Principal>
+            <Dependent Role="TestQuestion">
+              <PropertyRef Name="QuestionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentTestDetails_Students">
+          <End Type="NganHangModel.Student" Multiplicity="1" Role="Student" />
+          <End Type="NganHangModel.StudentTestDetail" Multiplicity="*" Role="StudentTestDetail" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="StudentId" />
+            </Principal>
+            <Dependent Role="StudentTestDetail">
+              <PropertyRef Name="FK_StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentTests_Students">
+          <End Type="NganHangModel.Student" Multiplicity="1" Role="Student" />
+          <End Type="NganHangModel.StudentTest" Multiplicity="*" Role="StudentTest" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="StudentId" />
+            </Principal>
+            <Dependent Role="StudentTest">
+              <PropertyRef Name="FK_StudenId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentTestDetails_Tests">
+          <End Type="NganHangModel.Test" Multiplicity="1" Role="Test" />
+          <End Type="NganHangModel.StudentTestDetail" Multiplicity="*" Role="StudentTestDetail" />
+          <ReferentialConstraint>
+            <Principal Role="Test">
+              <PropertyRef Name="TestId" />
+            </Principal>
+            <Dependent Role="StudentTestDetail">
+              <PropertyRef Name="FK_TestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentTests_Tests">
+          <End Type="NganHangModel.Test" Multiplicity="1" Role="Test" />
+          <End Type="NganHangModel.StudentTest" Multiplicity="*" Role="StudentTest" />
+          <ReferentialConstraint>
+            <Principal Role="Test">
+              <PropertyRef Name="TestId" />
+            </Principal>
+            <Dependent Role="StudentTest">
+              <PropertyRef Name="FK_TestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsClass_Subjects">
+          <End Type="NganHangModel.Subject" Multiplicity="1" Role="Subject" />
+          <End Type="NganHangModel.SubjectsClass" Multiplicity="*" Role="SubjectsClass" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="SubjectId" />
+            </Principal>
+            <Dependent Role="SubjectsClass">
+              <PropertyRef Name="FK_SubjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsMultiTests_Subjects">
+          <End Type="NganHangModel.Subject" Multiplicity="1" Role="Subject" />
+          <End Type="NganHangModel.SubjectsMultiTest" Multiplicity="*" Role="SubjectsMultiTest" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="SubjectId" />
+            </Principal>
+            <Dependent Role="SubjectsMultiTest">
+              <PropertyRef Name="FK_SubjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserSubjectRights_Subjects">
+          <End Type="NganHangModel.Subject" Multiplicity="1" Role="Subject" />
+          <End Type="NganHangModel.UserSubjectRight" Multiplicity="*" Role="UserSubjectRight" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="SubjectId" />
+            </Principal>
+            <Dependent Role="UserSubjectRight">
+              <PropertyRef Name="FK_SubjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsClass_MainTeachers">
+          <End Type="NganHangModel.Teacher" Multiplicity="1" Role="Teacher" />
+          <End Type="NganHangModel.SubjectsClass" Multiplicity="*" Role="SubjectsClass" />
+          <ReferentialConstraint>
+            <Principal Role="Teacher">
+              <PropertyRef Name="TeacherId" />
+            </Principal>
+            <Dependent Role="SubjectsClass">
+              <PropertyRef Name="FK_TeacherIdMain" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubjectsClass_SubjectTeachers">
+          <End Type="NganHangModel.Teacher" Multiplicity="1" Role="Teacher" />
+          <End Type="NganHangModel.SubjectsClass" Multiplicity="*" Role="SubjectsClass" />
+          <ReferentialConstraint>
+            <Principal Role="Teacher">
+              <PropertyRef Name="TeacherId" />
+            </Principal>
+            <Dependent Role="SubjectsClass">
+              <PropertyRef Name="FK_TeacherIdSubject" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserSubjectRights_Teachers">
+          <End Type="NganHangModel.Teacher" Multiplicity="1" Role="Teacher" />
+          <End Type="NganHangModel.UserSubjectRight" Multiplicity="*" Role="UserSubjectRight" />
+          <ReferentialConstraint>
+            <Principal Role="Teacher">
+              <PropertyRef Name="TeacherId" />
+            </Principal>
+            <Dependent Role="UserSubjectRight">
+              <PropertyRef Name="FK_TeacherId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TestCopies_Tests">
+          <End Type="NganHangModel.Test" Multiplicity="1" Role="Test" />
+          <End Type="NganHangModel.TestCopy" Multiplicity="*" Role="TestCopy" />
+          <ReferentialConstraint>
+            <Principal Role="Test">
+              <PropertyRef Name="TestId" />
+            </Principal>
+            <Dependent Role="TestCopy">
+              <PropertyRef Name="FK_TestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TestQuestions_Tests">
+          <End Type="NganHangModel.Test" Multiplicity="1" Role="Test" />
+          <End Type="NganHangModel.TestQuestion" Multiplicity="*" Role="TestQuestion" />
+          <ReferentialConstraint>
+            <Principal Role="Test">
+              <PropertyRef Name="TestId" />
+            </Principal>
+            <Dependent Role="TestQuestion">
+              <PropertyRef Name="TestId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SubjectsClassStudents">
+          <End Type="NganHangModel.Student" Multiplicity="*" Role="Student" />
+          <End Type="NganHangModel.SubjectsClass" Multiplicity="*" Role="SubjectsClass" />
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NganHangModelStoreContainer" CdmEntityContainer="NganHangEntities">
+          <EntitySetMapping Name="Answers">
+            <EntityTypeMapping TypeName="NganHangModel.Answer">
+              <MappingFragment StoreEntitySet="Answers">
+                <ScalarProperty Name="IsAnswer" ColumnName="IsAnswer" />
+                <ScalarProperty Name="FK_QuestionId" ColumnName="FK_QuestionId" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="AnswerId" ColumnName="AnswerId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Departments">
+            <EntityTypeMapping TypeName="NganHangModel.Department">
+              <MappingFragment StoreEntitySet="Departments">
+                <ScalarProperty Name="DepartmentNo" ColumnName="DepartmentNo" />
+                <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+                <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MultiTestCopies">
+            <EntityTypeMapping TypeName="NganHangModel.MultiTestCopy">
+              <MappingFragment StoreEntitySet="MultiTestCopies">
+                <ScalarProperty Name="MultiTestCopyStructure" ColumnName="MultiTestCopyStructure" />
+                <ScalarProperty Name="FK_MultiTestId" ColumnName="FK_MultiTestId" />
+                <ScalarProperty Name="MultiTestCopyId" ColumnName="MultiTestCopyId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MultiTestQuestions">
+            <EntityTypeMapping TypeName="NganHangModel.MultiTestQuestion">
+              <MappingFragment StoreEntitySet="MultiTestQuestions">
+                <ScalarProperty Name="Mark" ColumnName="Mark" />
+                <ScalarProperty Name="FK_QuestionId" ColumnName="FK_QuestionId" />
+                <ScalarProperty Name="FK_MultiTestId" ColumnName="FK_MultiTestId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MultiTests">
+            <EntityTypeMapping TypeName="NganHangModel.MultiTest">
+              <MappingFragment StoreEntitySet="MultiTests">
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsMixedTest" ColumnName="IsMixedTest" />
+                <ScalarProperty Name="TotalQuestions" ColumnName="TotalQuestions" />
+                <ScalarProperty Name="CopyTestNo" ColumnName="CopyTestNo" />
+                <ScalarProperty Name="Purpose" ColumnName="Purpose" />
+                <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="MultiTestDate" ColumnName="MultiTestDate" />
+                <ScalarProperty Name="MultiTestName" ColumnName="MultiTestName" />
+                <ScalarProperty Name="MultiTestNo" ColumnName="MultiTestNo" />
+                <ScalarProperty Name="MultiTestId" ColumnName="MultiTestId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Operations">
+            <EntityTypeMapping TypeName="NganHangModel.Operation">
+              <MappingFragment StoreEntitySet="Operations">
+                <ScalarProperty Name="OperationName" ColumnName="OperationName" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Questions">
+            <EntityTypeMapping TypeName="NganHangModel.Question">
+              <MappingFragment StoreEntitySet="Questions">
+                <ScalarProperty Name="IsAnswerRandom" ColumnName="IsAnswerRandom" />
+                <ScalarProperty Name="QuestionGuid" ColumnName="QuestionGuid" />
+                <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+                <ScalarProperty Name="Purpose" ColumnName="Purpose" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="FK_SubjectId" ColumnName="FK_SubjectId" />
+                <ScalarProperty Name="Level" ColumnName="Level" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SchoolInfos">
+            <EntityTypeMapping TypeName="NganHangModel.SchoolInfo">
+              <MappingFragment StoreEntitySet="SchoolInfos">
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="HomePhone" ColumnName="HomePhone" />
+                <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+                <ScalarProperty Name="SchoolInfoId" ColumnName="SchoolInfoId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Students">
+            <EntityTypeMapping TypeName="NganHangModel.Student">
+              <MappingFragment StoreEntitySet="Students">
+                <ScalarProperty Name="Images" ColumnName="Images" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="SchoolYear" ColumnName="SchoolYear" />
+                <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="HomePhone" ColumnName="HomePhone" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="CMND" ColumnName="CMND" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="BirthDay" ColumnName="BirthDay" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudentTestDetails">
+            <EntityTypeMapping TypeName="NganHangModel.StudentTestDetail">
+              <MappingFragment StoreEntitySet="StudentTestDetails">
+                <ScalarProperty Name="FK_AnserId" ColumnName="FK_AnserId" />
+                <ScalarProperty Name="FK_QuestionId" ColumnName="FK_QuestionId" />
+                <ScalarProperty Name="FK_StudentId" ColumnName="FK_StudentId" />
+                <ScalarProperty Name="FK_TestId" ColumnName="FK_TestId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudentTests">
+            <EntityTypeMapping TypeName="NganHangModel.StudentTest">
+              <MappingFragment StoreEntitySet="StudentTests">
+                <ScalarProperty Name="DoneTime" ColumnName="DoneTime" />
+                <ScalarProperty Name="NotDone" ColumnName="NotDone" />
+                <ScalarProperty Name="WrongNo" ColumnName="WrongNo" />
+                <ScalarProperty Name="CorrectNo" ColumnName="CorrectNo" />
+                <ScalarProperty Name="QuestionStructure" ColumnName="QuestionStructure" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Score" ColumnName="Score" />
+                <ScalarProperty Name="FK_TestId" ColumnName="FK_TestId" />
+                <ScalarProperty Name="FK_StudenId" ColumnName="FK_StudenId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subjects">
+            <EntityTypeMapping TypeName="NganHangModel.Subject">
+              <MappingFragment StoreEntitySet="Subjects">
+                <ScalarProperty Name="SubjectGuid" ColumnName="SubjectGuid" />
+                <ScalarProperty Name="IsDel" ColumnName="IsDel" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="SubjectNo" ColumnName="SubjectNo" />
+                <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SubjectsClasses">
+            <EntityTypeMapping TypeName="NganHangModel.SubjectsClass">
+              <MappingFragment StoreEntitySet="SubjectsClass">
+                <ScalarProperty Name="FK_DepartmentId" ColumnName="FK_DepartmentId" />
+                <ScalarProperty Name="OpenOut" ColumnName="OpenOut" />
+                <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+                <ScalarProperty Name="FK_SubjectId" ColumnName="FK_SubjectId" />
+                <ScalarProperty Name="ContractValue" ColumnName="ContractValue" />
+                <ScalarProperty Name="Partner" ColumnName="Partner" />
+                <ScalarProperty Name="FK_TeacherIdSubject" ColumnName="FK_TeacherIdSubject" />
+                <ScalarProperty Name="FK_TeacherIdMain" ColumnName="FK_TeacherIdMain" />
+                <ScalarProperty Name="ToDate" ColumnName="ToDate" />
+                <ScalarProperty Name="FromDate" ColumnName="FromDate" />
+                <ScalarProperty Name="SubjectsClassName" ColumnName="SubjectsClassName" />
+                <ScalarProperty Name="SubjectsClassNo" ColumnName="SubjectsClassNo" />
+                <ScalarProperty Name="SubjectsClassId" ColumnName="SubjectsClassId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SubjectsMultiTests">
+            <EntityTypeMapping TypeName="NganHangModel.SubjectsMultiTest">
+              <MappingFragment StoreEntitySet="SubjectsMultiTests">
+                <ScalarProperty Name="HardNo1" ColumnName="HardNo1" />
+                <ScalarProperty Name="NormalNo1" ColumnName="NormalNo1" />
+                <ScalarProperty Name="EasyNo1" ColumnName="EasyNo1" />
+                <ScalarProperty Name="HardNo" ColumnName="HardNo" />
+                <ScalarProperty Name="NormalNo" ColumnName="NormalNo" />
+                <ScalarProperty Name="EasyNo" ColumnName="EasyNo" />
+                <ScalarProperty Name="FK_MultiTestId" ColumnName="FK_MultiTestId" />
+                <ScalarProperty Name="FK_SubjectId" ColumnName="FK_SubjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TeacherOperations">
+            <EntityTypeMapping TypeName="NganHangModel.TeacherOperation">
+              <MappingFragment StoreEntitySet="TeacherOperations">
+                <ScalarProperty Name="Enable" ColumnName="Enable" />
+                <ScalarProperty Name="OperationName" ColumnName="OperationName" />
+                <ScalarProperty Name="TeacherId" ColumnName="TeacherId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Teachers">
+            <EntityTypeMapping TypeName="NganHangModel.Teacher">
+              <MappingFragment StoreEntitySet="Teachers">
+                <ScalarProperty Name="Images" ColumnName="Images" />
+                <ScalarProperty Name="Roles" ColumnName="Roles" />
+                <ScalarProperty Name="FK_DepartmentId" ColumnName="FK_DepartmentId" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="HomePhone" ColumnName="HomePhone" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="TeacherId" ColumnName="TeacherId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TestCopies">
+            <EntityTypeMapping TypeName="NganHangModel.TestCopy">
+              <MappingFragment StoreEntitySet="TestCopies">
+                <ScalarProperty Name="TestCopyStructure" ColumnName="TestCopyStructure" />
+                <ScalarProperty Name="FK_TestId" ColumnName="FK_TestId" />
+                <ScalarProperty Name="TestCopyId" ColumnName="TestCopyId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TestQuestions">
+            <EntityTypeMapping TypeName="NganHangModel.TestQuestion">
+              <MappingFragment StoreEntitySet="TestQuestions">
+                <ScalarProperty Name="Mark" ColumnName="Mark" />
+                <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+                <ScalarProperty Name="TestId" ColumnName="TestId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tests">
+            <EntityTypeMapping TypeName="NganHangModel.Test">
+              <MappingFragment StoreEntitySet="Tests">
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsLimited" ColumnName="IsLimited" />
+                <ScalarProperty Name="HardNo" ColumnName="HardNo" />
+                <ScalarProperty Name="NormalNo" ColumnName="NormalNo" />
+                <ScalarProperty Name="EasyNo" ColumnName="EasyNo" />
+                <ScalarProperty Name="CopyNo" ColumnName="CopyNo" />
+                <ScalarProperty Name="Purpose" ColumnName="Purpose" />
+                <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="TestDate" ColumnName="TestDate" />
+                <ScalarProperty Name="FK_SubjectId" ColumnName="FK_SubjectId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="TestNo" ColumnName="TestNo" />
+                <ScalarProperty Name="TestId" ColumnName="TestId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserSubjectRights">
+            <EntityTypeMapping TypeName="NganHangModel.UserSubjectRight">
+              <MappingFragment StoreEntitySet="UserSubjectRights">
+                <ScalarProperty Name="Right" ColumnName="Right" />
+                <ScalarProperty Name="FK_SubjectId" ColumnName="FK_SubjectId" />
+                <ScalarProperty Name="FK_TeacherId" ColumnName="FK_TeacherId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="SubjectsClassStudents" TypeName="NganHangModel.SubjectsClassStudents" StoreEntitySet="SubjectsClassStudents">
+            <EndProperty Name="SubjectsClass">
+              <ScalarProperty Name="SubjectsClassId" ColumnName="FK_SubjectClassId" />
+            </EndProperty>
+            <EndProperty Name="Student">
+              <ScalarProperty Name="StudentId" ColumnName="FK_StudentId" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

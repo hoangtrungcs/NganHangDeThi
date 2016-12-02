@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/POCO
+END
+SubjectsMultiTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/SubjectsMultiTest.cs
+END
+Answer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/Answer.cs
+END
+Subject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/Subject.cs
+END
+Operation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/Operation.cs
+END
+QuestionBank.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/POCO/QuestionBank.cs
+END
+SchoolInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/SchoolInfo.cs
+END
+Department.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/Department.cs
+END
+Question.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/Question.cs
+END
+TestQuestion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/TestQuestion.cs
+END
+QuestionBank.Context.tt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/POCO/QuestionBank.Context.tt
+END
+SubjectsClass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/SubjectsClass.cs
+END
+StudentTestDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/StudentTestDetail.cs
+END
+TestCopy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/TestCopy.cs
+END
+Teacher.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/Teacher.cs
+END
+Test.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/POCO/Test.cs
+END
+MultiTestQuestion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/MultiTestQuestion.cs
+END
+LopHoc.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/POCO/LopHoc.cs
+END
+QuestionBank.tt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/POCO/QuestionBank.tt
+END
+MultiTestCopy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/MultiTestCopy.cs
+END
+StudentTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/StudentTest.cs
+END
+Student.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/Student.cs
+END
+QuestionBank.Context.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/POCO/QuestionBank.Context.cs
+END
+MultiTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/NganHangDeThi/Model/POCO/MultiTest.cs
+END
+UserSubjectRight.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/UserSubjectRight.cs
+END
+TeacherOperation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/NganHangDeThi/Model/POCO/TeacherOperation.cs
+END

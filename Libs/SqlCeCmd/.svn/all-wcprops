@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd
+END
+sqlceqp40.dll
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/sqlceqp40.dll
+END
+sqlceme40.dll
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/sqlceme40.dll
+END
+sqlceca40.dll
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/sqlceca40.dll
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/Readme.txt
+END
+SqlCeCmd.exe
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/SqlCeCmd.exe
+END
+sqlcecompact40.dll
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/sqlcecompact40.dll
+END
+sqlcese40.dll
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/sqlcese40.dll
+END
+msvcr90.dll
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/msvcr90.dll
+END
+System.Data.SqlServerCe.Entity.dll
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/System.Data.SqlServerCe.Entity.dll
+END
+sqlceer40EN.dll
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/sqlceer40EN.dll
+END
+SqlCeCmd.exe.config
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/SqlCeCmd.exe.config
+END
+Microsoft.VC90.CRT.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/Microsoft.VC90.CRT.manifest
+END
+System.Data.SqlServerCe.dll
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/Libs/SqlCeCmd/System.Data.SqlServerCe.dll
+END

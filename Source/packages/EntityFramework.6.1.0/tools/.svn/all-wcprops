@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/EntityFramework.6.1.0/tools
+END
+init.ps1
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/EntityFramework.6.1.0/tools/init.ps1
+END
+EntityFramework.PowerShell.dll
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/EntityFramework.6.1.0/tools/EntityFramework.PowerShell.dll
+END
+migrate.exe
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/EntityFramework.6.1.0/tools/migrate.exe
+END
+install.ps1
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/EntityFramework.6.1.0/tools/install.ps1
+END
+EntityFramework.psm1
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/EntityFramework.6.1.0/tools/EntityFramework.psm1
+END
+about_EntityFramework.help.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/EntityFramework.6.1.0/tools/about_EntityFramework.help.txt
+END
+EntityFramework.PowerShell.Utility.dll
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/EntityFramework.6.1.0/tools/EntityFramework.PowerShell.Utility.dll
+END
+EntityFramework.psd1
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/EntityFramework.6.1.0/tools/EntityFramework.psd1
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/NganHangDeThi/BackupRestore
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/NganHangDeThi/BackupRestore/Program.cs
+END
+frmRestore.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/NganHangDeThi/BackupRestore/frmRestore.Designer.cs
+END
+frmRestore.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/NganHangDeThi/BackupRestore/frmRestore.cs
+END
+App.config
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/NganHangDeThi/BackupRestore/App.config
+END
+frmRestore.resx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/NganHangDeThi/BackupRestore/frmRestore.resx
+END
+BackupRestore.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/NganHangDeThi/BackupRestore/BackupRestore.csproj
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/2/trunk/DB/SQLCE
+END
+QuestionBank.edmx.sqlce
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/DB/SQLCE/QuestionBank.edmx.sqlce
+END
+FillData.sqlce
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/DB/SQLCE/FillData.sqlce
+END
+log_data.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/DB/SQLCE/log_data.txt
+END
+log.txt
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/DB/SQLCE/log.txt
+END
+CreateDBForMCGeneratorServer.bat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/DB/SQLCE/CreateDBForMCGeneratorServer.bat
+END

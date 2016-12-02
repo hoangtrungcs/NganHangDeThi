@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ef9cc37b3b624788ae4b3316a6b3602a" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="NganHangModel.Answer" PointX="4.4719736056737478" PointY="18.990313047072995" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.Department" PointX="2.7975055756035752" PointY="5.0260379933873365" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.MultiTestCopy" PointX="6.9816215145316081" PointY="9.6195886477919235" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.MultiTestQuestion" PointX="11.471728719524913" PointY="31.42994576666036" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.MultiTest" PointX="11.038630608021576" PointY="15.827121846297347" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.Operation" PointX="4.112928077631131" PointY="7.0047817858889614" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.Question" PointX="7.5011190769733478" PointY="8.3084669449871722" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.SchoolInfo" PointX="5.9847726998779791" PointY="2.9766985042843497" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.Student" PointX="10.329563570362312" PointY="0.1309852451695992" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.StudentTestDetail" PointX="9.8936553475883109" PointY="23.935705583512647" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.StudentTest" PointX="5.03983143579207" PointY="7.1427368405939715" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.Subject" PointX="8.28886059126298" PointY="29.54939532165853" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.SubjectsClass" PointX="10.863505236275262" PointY="17.272102095779079" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.SubjectsMultiTest" PointX="4.97947150700701" PointY="27.854786617613765" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.TeacherOperation" PointX="2.8244197884688247" PointY="23.045299198033891" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.Teacher" PointX="6.8290343372286468" PointY="23.059106137165383" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.TestCopy" PointX="1.3805628425351171" PointY="25.036571156716239" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.TestQuestion" PointX="4.1366004720966334" PointY="13.577958441142904" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.Test" PointX="2.8390478076595107" PointY="21.704647402141546" Width="1.5" />
+        <EntityTypeShape EntityType="NganHangModel.UserSubjectRight" PointX="8.07626630741929" PointY="24.581896048310163" Width="1.5" />
+        <AssociationConnector Association="NganHangModel.FK_Answers_Questions" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsClass_Departments" />
+        <AssociationConnector Association="NganHangModel.FK_Teachers_Departments" />
+        <AssociationConnector Association="NganHangModel.FK_MultiTestCopies_MultiTests" />
+        <AssociationConnector Association="NganHangModel.FK_MultiTestQuestions_MultiTests" />
+        <AssociationConnector Association="NganHangModel.FK_MultiTestQuestions_Questions" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsMultiTests_MultiTests" />
+        <AssociationConnector Association="NganHangModel.FK_Questions_Subjects" />
+        <AssociationConnector Association="NganHangModel.FK_StudentTestDetails_Questions" />
+        <AssociationConnector Association="NganHangModel.FK_TestQuestions_Questions" />
+        <AssociationConnector Association="NganHangModel.FK_StudentTestDetails_Students" />
+        <AssociationConnector Association="NganHangModel.FK_StudentTests_Students" />
+        <AssociationConnector Association="NganHangModel.FK_StudentTestDetails_Tests" />
+        <AssociationConnector Association="NganHangModel.FK_StudentTests_Tests" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsClass_Subjects" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsMultiTests_Subjects" />
+        <AssociationConnector Association="NganHangModel.FK_UserSubjectRights_Subjects" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsClass_MainTeachers" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsClass_SubjectTeachers" />
+        <AssociationConnector Association="NganHangModel.FK_UserSubjectRights_Teachers" />
+        <AssociationConnector Association="NganHangModel.FK_TestCopies_Tests" />
+        <AssociationConnector Association="NganHangModel.FK_TestQuestions_Tests" />
+        <AssociationConnector Association="NganHangModel.SubjectsClassStudents" />
+        <EntityTypeShape EntityType="NganHangModel.Answer1" Width="1.5" PointX="1.7006497428289848" PointY="12.034662222505855" />
+        <EntityTypeShape EntityType="NganHangModel.Class" Width="1.5" PointX="6.4083791721651231" PointY="3.97194417005961" />
+        <EntityTypeShape EntityType="NganHangModel.Department1" Width="1.5" PointX="3.1099766060290746" PointY="29.479421942252397" />
+        <EntityTypeShape EntityType="NganHangModel.MultiTestCopy1" Width="1.5" PointX="9.62723776215093" PointY="30.209288670778875" />
+        <EntityTypeShape EntityType="NganHangModel.MultiTestQuestion1" Width="1.5" PointX="10.443504301106326" PointY="9.3656924112540167" />
+        <EntityTypeShape EntityType="NganHangModel.MultiTest1" Width="1.5" PointX="3.3641443920154792" PointY="31.344198137216363" />
+        <EntityTypeShape EntityType="NganHangModel.Operation1" Width="1.5" PointX="6.9220094191478614" PointY="16.168072305697983" />
+        <EntityTypeShape EntityType="NganHangModel.Question1" Width="1.5" PointX="8.6742255076180328" PointY="16.154526986253693" />
+        <EntityTypeShape EntityType="NganHangModel.SchoolInfo1" Width="1.5" PointX="6.169428709041993" PointY="14.624402723565884" />
+        <EntityTypeShape EntityType="NganHangModel.Student1" Width="1.5" PointX="0.94845733835755719" PointY="13.08160964263678" />
+        <EntityTypeShape EntityType="NganHangModel.StudentTestDetail1" Width="1.5" PointX="3.3766180888640775" PointY="9.4228207214841717" />
+        <EntityTypeShape EntityType="NganHangModel.StudentTest1" Width="1.5" PointX="9.9496754007179646" PointY="28.613379238458993" />
+        <EntityTypeShape EntityType="NganHangModel.Subject1" Width="1.5" PointX="8.3939934728639169" PointY="1.7647798665635195" />
+        <EntityTypeShape EntityType="NganHangModel.SubjectsClass1" Width="1.5" PointX="9.5567424919254815" PointY="8.3297610470698036" />
+        <EntityTypeShape EntityType="NganHangModel.SubjectsMultiTest1" Width="1.5" PointX="10.779647385133266" PointY="22.168873007487914" />
+        <EntityTypeShape EntityType="NganHangModel.TeacherOperation1" Width="1.5" PointX="10.655776071667567" PointY="23.89957375447246" />
+        <EntityTypeShape EntityType="NganHangModel.Teacher1" Width="1.5" PointX="1.4048267311439042" PointY="20.179117703893741" />
+        <EntityTypeShape EntityType="NganHangModel.TestCopy1" Width="1.5" PointX="8.3054157608679571" PointY="22.144728655994278" />
+        <EntityTypeShape EntityType="NganHangModel.TestQuestion1" Width="1.5" PointX="10.877728091030257" PointY="23.495420869204878" />
+        <EntityTypeShape EntityType="NganHangModel.Test1" Width="1.5" PointX="0.81035820246225143" PointY="28.23448541585099" />
+        <EntityTypeShape EntityType="NganHangModel.UserSubjectRight1" Width="1.5" PointX="7.1515341862810464" PointY="22.647319074090252" />
+        <AssociationConnector Association="NganHangModel.FK_Answers_Questions1" />
+        <AssociationConnector Association="NganHangModel.TestForClassRelation" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsClass_Departments1" />
+        <AssociationConnector Association="NganHangModel.FK_Teachers_Departments1" />
+        <AssociationConnector Association="NganHangModel.FK_MultiTestCopies_MultiTests1" />
+        <AssociationConnector Association="NganHangModel.FK_MultiTestQuestions_MultiTests1" />
+        <AssociationConnector Association="NganHangModel.FK_MultiTestQuestions_Questions1" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsMultiTests_MultiTests1" />
+        <AssociationConnector Association="NganHangModel.FK_Questions_Subjects1" />
+        <AssociationConnector Association="NganHangModel.FK_StudentTestDetails_Questions1" />
+        <AssociationConnector Association="NganHangModel.FK_TestQuestions_Questions1" />
+        <AssociationConnector Association="NganHangModel.FK_StudentTestDetails_Students1" />
+        <AssociationConnector Association="NganHangModel.FK_StudentTests_Students1" />
+        <AssociationConnector Association="NganHangModel.FK_StudentTestDetails_Tests1" />
+        <AssociationConnector Association="NganHangModel.FK_StudentTests_Tests1" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsClass_Subjects1" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsMultiTests_Subjects1" />
+        <AssociationConnector Association="NganHangModel.FK_UserSubjectRights_Subjects1" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsClass_MainTeachers1" />
+        <AssociationConnector Association="NganHangModel.FK_SubjectsClass_SubjectTeachers1" />
+        <AssociationConnector Association="NganHangModel.FK_UserSubjectRights_Teachers1" />
+        <AssociationConnector Association="NganHangModel.FK_TestCopies_Tests1" />
+        <AssociationConnector Association="NganHangModel.FK_TestQuestions_Tests1" />
+        <AssociationConnector Association="NganHangModel.SubjectsClassStudents1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

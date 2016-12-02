@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/CustomScaffolder
+END
+DefaultPs1Script.ps1.t4
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/CustomScaffolder/DefaultPs1Script.ps1.t4
+END
+T4Scaffolding.CustomScaffolder.ps1
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/CustomScaffolder/T4Scaffolding.CustomScaffolder.ps1
+END
+DefaultT4Template.cs.t4
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/CustomScaffolder/DefaultT4Template.cs.t4
+END
+DefaultT4Template.vb.t4
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/5/trunk/NganHangDeThi/packages/T4Scaffolding.Core.1.0.0/tools/CustomScaffolder/DefaultT4Template.vb.t4
+END

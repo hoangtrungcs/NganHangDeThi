@@ -1,0 +1,40 @@
+Executing: INSERT INTO Departments(DepartmentName,DepartmentNo)
+VALUES ('Computer','1002')
+
+Executing: INSERT INTO Departments(DepartmentName,DepartmentNo)
+VALUES ('Math','1003')
+
+Executing: 
+INSERT INTO Teachers(FirstName,LastName,Birthday,Phone,HomePhone,Email,Username,PassWord,IsActive,FK_DepartmentId,Roles)VALUES ('ADMIN','Administrator','1987-06-03','123456789','123456789','abc@yahoo.com','abc','1',1,1,1)
+
+Executing: 
+INSERT INTO Operations(OperationName) VALUES ('Teachers')
+INSERT INTO Operations(OperationName) VALUES ('Students')
+INSERT INTO Operations(OperationName) VALUES ('Subjects')
+INSERT INTO Operations(OperationName) VALUES ('SubjectClass')
+INSERT INTO Operations(OperationName) VALUES ('Department')
+INSERT INTO Operations(OperationName) VALUES ('TestComposer')
+INSERT INTO Operations(OperationName) VALUES ('Questions')
+INSERT INTO Operations(OperationName) VALUES ('AssignTest')
+INSERT INTO Operations(OperationName) VALUES ('CustomQuestion')
+INSERT INTO Operations(OperationName) VALUES ('MultiTest')
+INSERT INTO Operations(OperationName) VALUES ('StudentTestResults')
+INSERT INTO Operations(OperationName) VALUES ('Profiles')
+INSERT INTO Operations(OperationName) VALUES ('UserPermistion')
+INSERT INTO Operations(OperationName) VALUES ('DataBackup')
+INSERT INTO Operations(OperationName) VALUES ('Themes')
+INSERT INTO Operations(OperationName) VALUES ('EditSchoolInfo')
+INSERT INTO Operations(OperationName) VALUES ('MixedTest')
+INSERT INTO Operations(OperationName) VALUES ('LimitedTest')
+INSERT INTO Operations(OperationName) VALUES ('DataRestore')
+INSERT INTO Operations(OperationName) VALUES ('SharingQuestion')
+INSERT INTO Operations(OperationName) VALUES ('UpdateQuestion')
+
+
+ Error Code: 80040E14
+ Message   : There was an error parsing the query. [ Token line number = 3,Token line offset = 1,Token in error = INSERT ]
+ Minor Err.: 25501
+ Source    : SQL Server Compact ADO.NET Data Provider
+ Num. Par. : 3
+ Num. Par. : 1
+ Err. Par. : INSERT

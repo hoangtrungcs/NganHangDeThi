@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tabs>
+  <Tab Name="ribbonTab1" Text="Danh Mục">
+    <GroupButton OperationName="Teachers" Text="Giảng Viên"/>
+    <GroupButton OperationName="Students" Text="Sinh Viên"/>
+    <GroupButton OperationName="Subjects" Text="Môn Học"/>
+    <GroupButton OperationName="SubjectClass" Text="Lớp Môn Học"/>
+    <GroupButton OperationName="Department" Text="Phòng Ban"/>
+  </Tab>
+  <Tab Name="ribbonTab3" Text="Chức Năng">
+    <GroupButton OperationName="Questions" Text="Trắc nghiệm"/>
+    <GroupButton OperationName="CustomQuestion" Text="Tự Luận"/>
+    <GroupButton OperationName="TestComposer" Text="Soạn Đề Thi"/>
+    <GroupButton OperationName="MultiTest" Text="Soạn Đề Từ Nhiều Môn"/>
+    <GroupButton OperationName="MixedTest" Text="Soạn Đề Hỗn Hợp"/>
+    <GroupButton OperationName="LimitedTest" Text="Soạn Đề Giới Hạn"/>
+    <GroupButton OperationName="AssignTest" Text="Gán Đề Thi"/>
+    <GroupButton OperationName="SharingQuestion" Text="Chia sẻ câu hỏi"/>
+    <GroupButton OperationName="UpdateQuestion" Text="Cập nhật câu hỏi"/>
+  </Tab>
+  <Tab Name="ribbonTab4" Text="Xem Kết Quả">
+    <GroupButton OperationName="StudentTestResults" Text="Xem Kết Quả"/>
+  </Tab>
+  <Tab Name="ribbonTab5" Text="Cấu hình">
+    <GroupButton OperationName="Profiles" Text="Tài Khoản"/>
+    <GroupButton OperationName="UserPermistion" Text="Phân Quyền"/>
+    <GroupButton OperationName="DataBackup" Text="Sao Lưu Dữ Liệu"/>
+    <GroupButton OperationName="DataRestore" Text="Phục Hồi Dữ Liệu"/>
+    <GroupButton OperationName="Themes" Text="Giao Diện"/>
+    <GroupButton OperationName="EditSchoolInfo" Text="Sửa Thông Tin Trường"/>
+  </Tab>
+</Tabs>
